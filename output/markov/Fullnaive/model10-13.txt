@@ -1,0 +1,3 @@
+map("transmit data", "The INQ transmits the transaction data request to the IP.")
+map("request", "The IP checks the request of the INQ.")
+map("check", "The IP checks the request of the INQ.")

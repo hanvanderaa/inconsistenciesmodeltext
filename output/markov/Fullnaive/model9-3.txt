@@ -1,0 +1,6 @@
+map("update group calendars", "In November of each year the Coordination Unit at the Town Planning Authority drafts a schedule of meetings for the next calendar year and adds draft dates to all calendars.")
+map("enter into next years calendar", "In November of each year the Coordination Unit at the Town Planning Authority drafts a schedule of meetings for the next calendar year and adds draft dates to all calendars.")
+map("finalize calendar schedule", "In November of each year the Coordination Unit at the Town Planning Authority drafts a schedule of meetings for the next calendar year and adds draft dates to all calendars.")
+map("check and suggest updates", "The Support Officer then checks the dates and suggests modifications.")
+map("check for conflicts", "The Coordination Unit then rechecks all dates and looks for potential conflicts.")
+map("draft dates", "In November of each year the Coordination Unit at the Town Planning Authority drafts a schedule of meetings for the next calendar year and adds draft dates to all calendars.")

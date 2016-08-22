@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Conduct dismissal</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="2">
+		<label>Review</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="3">
+		<label>Reject the dismissal</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="4">
+		<label>Confirm the dismissal</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>2</pred><succ>3</succ></pair>
+	<pair><pred>2</pred><succ>4</succ></pair>
+
+	
+</follows>
+
+<text>
+The MPON sents the dismissal to the MPOO. The MPOO reviews the dismissal. The MPOO opposes the dismissal of MPON or the MPOO confirms the dismissal of the MPON.
+
+
+
+</text>
+</process>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Create order</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="2">
+		<label>Process order</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="3">
+		<label>Send invoice</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="4">
+		<label>Receive invoice</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>2</pred><succ>3</succ></pair>
+	<pair><pred>3</pred><succ>4</succ></pair>
+
+	
+</follows>
+
+<text>
+The process starts periodically on the first of each month, when Assembler AG places an order with the supplier in order to request more product parts. a) Assembler AG sends the order to the supplier. b) The supplier processes the order. c) The supplier sends an invoice to Assembler AG. d) Assembler AG receives the invoice.
+
+
+</text>
+</process>

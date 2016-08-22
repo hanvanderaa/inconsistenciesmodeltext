@@ -1,0 +1,8 @@
+map("check performance of measurements", "The GO requests the measurements of the MSP.")
+map("send changed values", "The GO sends the changed values to the MSP.")
+map("request measurement", "The GO requests the measurements of the MSP.")
+map("transmit readings to the sp", "The GO transmit the readings to the SP.")
+map("transmit the measured values", "The GO processes the measured values.")
+map("inform about the failure of the reading", "The MSP informs the GO about the failure of the reading or the MSP transmits the measured values to the GO.")
+map("process measured values", "The GO processes the measured values.")
+map("check", "The MSP checks the received request.")

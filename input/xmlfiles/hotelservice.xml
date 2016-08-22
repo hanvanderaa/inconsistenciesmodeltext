@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Take down order</label>
+		<verbBase>take</verbBase>
+		<object>order</object>
+	</activity>
+	<activity id="2">
+		<label>Submit order ticket to kitchen</label>
+		<verbBase>submit</verbBase>
+		<object>order</object>
+	</activity>
+	<activity id="3">
+		<label>Prepare meal</label>
+		<verbBase>prepare</verbBase>
+		<object>meal</object>
+	</activity>
+	<activity id="4">
+		<label>Assign order to waiter</label>
+		<verbBase>assign</verbBase>
+		<object>order</object>
+	</activity>
+	<activity id="5">
+		<label>Ready cart</label>
+		<verbBase>ready</verbBase>
+		<object>cart</object>
+	</activity>
+	<activity id="6">
+		<label>Prepare non-alcoholic drinks</label>
+		<verbBase>prepare</verbBase>
+		<object>non-alcoholic drinks</object>
+	</activity>
+	<activity id="7">
+		<label>Give order to sommelier</label>
+		<verbBase>give</verbBase>
+		<object>order</object>
+	</activity>
+	<activity id="8">
+		<label>Fetch wine from cellar</label>
+		<verbBase>fetch</verbBase>
+		<object>wine</object>
+	</activity>
+	<activity id="9">
+		<label>Prepare alcoholic beverages</label>
+		<verbBase>prepare</verbBase>
+		<object>alcoholic beverages</object>
+	</activity>
+	<activity id="10">
+		<label>Deliver to guest's room</label>
+		<verbBase>deliver</verbBase>
+		<object>to guest's room</object>
+	</activity>
+	<activity id="11">
+		<label>Return to room-service</label>
+		<verbBase>return</verbBase>
+		<object>to room-service</object>
+	</activity>
+	<activity id="12">
+		<label>Debit guest's account</label>
+		<verbBase>debit</verbBase>
+		<object>guest's account</object>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>1</pred><succ>4</succ></pair>
+	<pair><pred>1</pred><succ>7</succ></pair>
+	<pair><pred>2</pred><succ>3</succ></pair>
+	<pair><pred>3</pred><succ>10</succ></pair>
+	<pair><pred>4</pred><succ>5</succ></pair>
+	<pair><pred>4</pred><succ>6</succ></pair>
+	<pair><pred>5</pred><succ>10</succ></pair>
+	<pair><pred>6</pred><succ>10</succ></pair>
+	<pair><pred>7</pred><succ>8</succ></pair>
+	<pair><pred>7</pred><succ>9</succ></pair>
+	<pair><pred>8</pred><succ>10</succ></pair>
+	<pair><pred>9</pred><succ>10</succ></pair>
+	<pair><pred>10</pred><succ>11</succ></pair>
+	<pair><pred>11</pred><succ>12</succ></pair>
+
+	
+</follows>
+
+<text>
+
+The Evanstonian is an upscale independent hotel. When a guest calls room service at The Evanstonian, the room-service manager
+ takes down the order. She then submits an order ticket to the kitchen to begin preparing the food. She also gives an order
+  to the sommelier (i.e., the wine waiter) to fetch wine from the cellar and to prepare any other alcoholic beverages. 
+  Eighty percent of room-service orders include wine or some other alcoholic beverage. Finally, she assigns the order to
+   the waiter. While the kitchen and the sommelier are doing their tasks, the waiter readies a cart (i.e., puts a tablecloth
+    on the cart and gathers silverware). The waiter is also responsible for non-alcoholic drinks. Once the food, wine, and cart are
+     ready, the waiter delivers it to the guests room. After returning to the room-service station, the waiter debits the guest's
+      account. The waiter may wait to do the billing if he has another order to prepare or deliver.
+
+
+</text>
+</process>

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Check facts presented</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="2">
+		<label>Prepare registration statement for approval of SEC</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="3">
+		<label>Check compliance with laws</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="4">
+		<label>Talk to potential investors</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="5">
+		<label>fix issue price</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="6">
+		<label>Buy stock</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="7">
+		<label>offer to public</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>0</pred><succ>2</succ></pair>
+	<pair><pred>0</pred><succ>3</succ></pair>
+	<pair><pred>2</pred><succ>4</succ></pair>
+	<pair><pred>3</pred><succ>4</succ></pair>
+	<pair><pred>4</pred><succ>5</succ></pair>
+	<pair><pred>5</pred><succ>6</succ></pair>
+	<pair><pred>6</pred><succ>7</succ></pair>
+</follows>
+
+<text>
+Whenever a company makes the decision to go public, its first task is to select the underwriters. Underwriters act as financial midwives to a new issue. Usually they play a triple role: First they provide the company with procedural and financial advice, then they buy the issue, and finally they resell it to the public. Established underwriters are careful of their reputation and will not handle a new issue unless they believe the facts have been presented fairly. Thus, in addition to handling the sale of a company’s issue, the underwriters in effect give their seal of approval to it. They prepare a registration statement for the approval of the Securities and Exchange Commission (SEC). In addition to registering the issue with the SEC, they need to check that the issue complies with the so-called blue-sky laws of each state that regulate sales of securities within the state. While the registration statement is awaiting approval, underwriters begin to firm up the issue price. They arrange a road show to talk to potential investors. Immediately after they receive clearance from the SEC, underwriters fix the issue price. After that they enter into a firm commitment to buy the stock and then offer it to the public, when they havent still found any reason not to do it.
+
+</text>
+</process>

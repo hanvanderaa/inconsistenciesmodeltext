@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Notify about equipment change intentions</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="2">
+		<label>Notify about no self-dismounting</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="3">
+		<label>Notify about self-dismounting</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="4">
+		<label>Conduct final reading</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="5">
+		<label>Dismount old equipment</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="6">
+		<label>Conduct final reading</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="7">
+		<label>Mount new device</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="8">
+		<label>Read meter count at installation</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="9">
+		<label>Send values of final reading</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="10">
+		<label>Notify about the device change, the meter data and the meter count at installation</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+		<activity id="11">
+		<label>Notify about the device change, the meter data, the meter count at dismounting, and the meter count at installation</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>1</pred><succ>3</succ></pair>
+	<pair><pred>2</pred><succ>4</succ></pair>
+	<pair><pred>2</pred><succ>6</succ></pair>
+	<pair><pred>3</pred><succ>4</succ></pair>
+	<pair><pred>3</pred><succ>6</succ></pair>
+	<pair><pred>4</pred><succ>5</succ></pair>
+	<pair><pred>6</pred><succ>7</succ></pair>
+	<pair><pred>7</pred><succ>8</succ></pair>
+	<pair><pred>8</pred><succ>9</succ></pair>
+	<pair><pred>9</pred><succ>10</succ></pair>
+	<pair><pred>10</pred><succ>11</succ></pair>
+	
+</follows>
+
+<text>
+The MPON notifies the MPOO about equipment change intentions. The MPOO announces self dismounting to the MPON or the MPOO shall notify the MPON about no self-dismounting of the MPOO. The MPON or the MPOO perform the final reading. The MPON or the MPOO dismount the old equipment. The MPON mounts the new device. The MPON reads the meter count from the installed meter. The MPON sents the values of the final reading to the GO. The MPON tells the GO about the device changes, the master data and the meter count at installation. The GO shall notify the MSP about the device changes, the master data, the meter count at dismounting, and the meter count at installation.
+
+
+</text>
+</process>

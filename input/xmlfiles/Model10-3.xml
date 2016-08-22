@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Deregister</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="2">
+		<label>Verify</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="3">
+		<label>Reject registration</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="4">
+		<label>Confirm deregistration preliminarily</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="5">
+		<label>Oblige the MPOO to continue operations</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="6">
+		<label>Prepare readmission of the measuring point</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="7">
+		<label>Acquire equipment</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="8">
+		<label>Change equipment</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="9">
+		<label>Assign the GO as MPO</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="10">
+		<label>Inform about the new assignment</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="11">
+		<label>Inform about the assignment of the GO</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="12">
+		<label>Confirm continuation through MSBA</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>2</pred><succ>3</succ></pair>
+	<pair><pred>2</pred><succ>4</succ></pair>
+	<pair><pred>4</pred><succ>5</succ></pair>
+	<pair><pred>4</pred><succ>6</succ></pair>
+	<pair><pred>5</pred><succ>12</succ></pair>
+	<pair><pred>6</pred><succ>7</succ></pair>
+	<pair><pred>6</pred><succ>8</succ></pair>
+	<pair><pred>7</pred><succ>9</succ></pair>
+	<pair><pred>8</pred><succ>9</succ></pair>
+	<pair><pred>9</pred><succ>10</succ></pair>
+	<pair><pred>10</pred><succ>11</succ></pair>
+
+	
+</follows>
+
+<text>
+The MPOO deregisters at the GO. The GO verifies the deregistration. The GO rejects the deregistration of the MPOO or the GO preliminarily confirms the deregistration of the MPOO. The GO prepares the readmission of the measuring point. Optionally, the GO may oblige the MPOO to continue the operations. If the GO binds the MPOO to continue the operation, the MPOO confirms the continuation to the MPOO. The GO performs the equipment acquisition and/or equipment changes. The GO assigns the GO as MPO. The GO informs the MPOO about the end of the assignment of the MPOO and the beginning of the assignment of the GO. The GO informs the MSPO about the assignment of the GO. The GO informs the SP about the assignment of the GO.
+
+
+
+</text>
+</process>

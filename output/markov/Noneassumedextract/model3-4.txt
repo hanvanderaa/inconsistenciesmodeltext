@@ -1,0 +1,2 @@
+map("send reminder", "If no response is received after five days a reminder is sent to the claimant.")
+map("send questionnaire", "In the context of a claim handling process it is sometimes necessary to send a questionnaire to the claimant to gather additional information.")

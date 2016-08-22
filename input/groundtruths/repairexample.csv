@@ -1,0 +1,17 @@
+act id;activity;match;errorcode;;phrase id;phrase1;register;2;;;0;0  The running example is about a process to repair telephones in a company .2;analyze defect;4;;;1;1  The company can fix 3 different types of phones -LRB- `` T1 '' , `` T2 '' and `` T3 '' -RRB- .3;inform user;6;;;2;2  The process starts by registering a telephone device sent by a customer .4;repair (simple);8;;;3;3  After registration , the telephone is sent to the Problem Detection -LRB- PD -RRB- depart - ment .5;repair (complex);8;;;4;4  There it is analyzed and its defect is categorized .6;Test repair;11;;;5;5  In total , there are 10 different categories of defects that the phones fixed by this company can have .7;Restart repair;12;;;6;6  Once the problem is identified , the telephone is sent to the Repair department and a letter is sent to the customer to inform him/her about the problem .8;Archive repair;13;;;7;7  The Repair -LRB- R -RRB- department has two teams .;;;;;8;8  One of the teams can fix simple defects and the other team can repair complex defects .;;;;;9;9  However , some of the defect categories can be repaired by both teams .;;;;;10;10  Once a repair employee finishes working on a phone , this device is sent to the Quality Assurance -LRB- QA -RRB- department .;;;;;11;11  There it is analyzed by an employee to check .;;;;;12;12  , the telephone is again sent to the Repair department .;;;;;13;13  , the case is archived and the telephone is sent to the customer .;;;;;14;14  To save on throughput time , the company only tries to fix a defect a limited number of times .;;;;;15;15  , the case is archived anyway and a brand new device is sent to the customer .;;;;;;;;;;;;error codes: missing activity = m, wrong order = w, ambiguous = a, else leave empty;;;;;;Original text;;;;;;The running example is about a process to repair telephones in a company.;;;;;;The company can fix 3 different types of phones (â€œT1â€ù, â€œT2â€ù and â€œT3â€ù).;;;;;;"The
+process starts by registering a telephone device sent by a customer.";;;;;;"After
+registration, the telephone is sent to the Problem Detection (PD) depart-
+ment.";;;;;;There it is analyzed and its defect is categorized.;;;;;;"In total, there are
+10 different categories of defects that the phones fixed by this company can
+have.";;;;;;"Once the problem is identified, the telephone is sent to the Repair
+department and a letter is sent to the customer to inform him/her about the
+problem.";;;;;;The Repair (R) department has two teams.;;;;;;"One of the teams can
+fix simple defects and the other team can repair complex defects.";;;;;;"However,
+some of the defect categories can be repaired by both teams.";;;;;;"Once a repair
+employee finishes working on a phone, this device is sent to the Quality Assurance (QA) department.";;;;;;"There it is analyzed by an employee to check if
+the defect was indeed fixed or not.";;;;;;"If the defect is not repaired, the telephone
+is again sent to the Repair department.";;;;;;"If the telephone is indeed repaired,
+the case is archived and the telephone is sent to the customer.";;;;;;"To save on
+throughput time, the company only tries to fix a defect a limited number of
+times.";;;;;;"If the defect is not fixed, the case is archived anyway and a brand
+new device is sent to the customer.";;;;;;

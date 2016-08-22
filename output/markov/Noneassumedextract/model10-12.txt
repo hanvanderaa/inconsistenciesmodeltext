@@ -1,0 +1,5 @@
+map("confirm", "The IP confirmes the changes of the INQ or the IP rejectes the changes of the INQ.")
+map("notify about change", "The INQ notifies the IP of the change.")
+map("check", "The IP checks whether the master data can be changed at the desired time.")
+map("inform", "The EC tells the INQ about the change of his master data.")
+map("reject", "The IP confirmes the changes of the INQ or the IP rejectes the changes of the INQ.")

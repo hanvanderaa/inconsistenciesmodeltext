@@ -1,0 +1,4 @@
+map("process lead", "The Manager then processes the lead.")
+map("select top five leads", "Afterwards he selects the top five ones.")
+map("check open leads", "First the Manager checks the open leads.")
+map("call contact person", "He then tells his Sales Assistant to call the contact person of the leads.")

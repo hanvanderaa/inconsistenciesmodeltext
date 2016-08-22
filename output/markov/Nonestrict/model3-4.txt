@@ -1,0 +1,2 @@
+map("send questionnaire", "The claimant is expected to return the questionnaire within five days.")
+map("send reminder", "If no response is received after five days a reminder is sent to the claimant.")

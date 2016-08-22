@@ -1,0 +1,7 @@
+map("test electrical design", "Once completed the revised design is tested.")
+map("test physical design", "Once completed the revised design is tested.")
+map("locate and re-use designs", "After the Process starts a Task is performed to locate and distribute any relevant existing designs both electrical and physical.")
+map("review previous designs", "Any existing or previous Electrical and Physical Designs are inputs to both Activities.")
+map("update electrical design", "In each department -LRB- Electrical Design and Physical Design -RRB- any existing designs are reviewed resulting in an Update Plan for their respective designs -LRB- i.e. one in Electrical and another in Physical -RRB-.")
+map("update physical design", "In each department -LRB- Electrical Design and Physical Design -RRB- any existing designs are reviewed resulting in an Update Plan for their respective designs -LRB- i.e. one in Electrical and another in Physical -RRB-.")
+map("test complete design", "Once completed the revised design is tested.")

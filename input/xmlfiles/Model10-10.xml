@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Report failure</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="2">
+		<label>Suspect fault</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="3">
+		<label>Examine failure report</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="4">
+		<label>Reject failure report</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="5">
+		<label>Confirm failure report</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="6">
+		<label>Inform the GO about the failure</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="7">
+		<label>Inform the MSP about the failure</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="8">
+		<label>Repair the fault</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="9">
+		<label>Inform about the results of the repair of the fault</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="10">
+		<label>Inform about the resolution of the inference</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>0</pred><succ>2</succ></pair>
+	<pair><pred>1</pred><succ>3</succ></pair>
+	<pair><pred>2</pred><succ>3</succ></pair>
+	<pair><pred>3</pred><succ>4</succ></pair>
+	<pair><pred>3</pred><succ>5</succ></pair>
+	<pair><pred>4</pred><succ>6</succ></pair>
+	<pair><pred>5</pred><succ>6</succ></pair>
+	<pair><pred>6</pred><succ>7</succ></pair>
+	<pair><pred>7</pred><succ>8</succ></pair>
+	<pair><pred>8</pred><succ>9</succ></pair>
+	<pair><pred>9</pred><succ>10</succ></pair>
+
+	
+</follows>
+
+<text>
+The fault detector reports a failure to the MPO or MPO has a suspicion of their own fault. The MPO shall examine the failure. The MPO rejects the failure of the fault detector or the MPO confirms the failure of the fault detector. If the MPO confirms the failure of the fault detector, he informs the GO and the MSP. The MPO fixes the fault at the measuring device. The MPO shares the results of the repairs carried out with the fault detector. The MPO will inform the GO about the resolution of the interference. The MPO will inform the MSP about the resolution of the interference.
+
+
+
+</text>
+</process>

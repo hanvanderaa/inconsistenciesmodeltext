@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>receive order</label>
+		<verbBase>receive</verbBase>
+		<object>order</object>
+	</activity>
+		<activity id="4">
+		<label>Inform storehouse and engineering department</label>
+		<verbBase>inform</verbBase>
+		<object>storehouse and engineering department</object>
+	</activity>
+	<activity id="5">
+		<label>check part quantity</label>
+		<verbBase>check</verbBase>
+		<object>part quantity</object>
+	</activity>
+	<activity id="6">
+		<label>Back-order part</label>
+		<verbBase>back-order</verbBase>
+		<object>part</object>
+	</activity>
+		<activity id="7">
+		<label>reserve part</label>
+		<verbBase>reserve</verbBase>
+		<object>part</object>
+	</activity>
+	<activity id="8">
+		<label>prepare for assembling</label>
+		<verbBase>prepare</verbBase>
+		<object>for assembling</object>
+	</activity>
+		<activity id="9">
+		<label>assemble bicycle</label>
+		<verbBase>assemble</verbBase>
+		<object>bicycle</object>
+	</activity>
+	<activity id="10">
+		<label>ship bicycle to customer</label>
+		<verbBase>ship</verbBase>
+		<object>bicycle to customer</object>
+	</activity>	
+	<activity id="11">
+		<label>select unchecked part</label>
+		<verbBase>ship</verbBase>
+		<object>bicycle to customer</object>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>4</succ></pair>
+	<pair><pred>4</pred><succ>5</succ></pair>
+	<pair><pred>4</pred><succ>8</succ></pair>
+	<pair><pred>5</pred><succ>6</succ></pair>
+	<pair><pred>5</pred><succ>7</succ></pair>
+	<pair><pred>6</pred><succ>9</succ></pair>
+	<pair><pred>6</pred><succ>11</succ></pair>
+	<pair><pred>7</pred><succ>9</succ></pair>
+	<pair><pred>7</pred><succ>11</succ></pair>
+	<pair><pred>8</pred><succ>9</succ></pair>
+	<pair><pred>9</pred><succ>10</succ></pair>
+	
+</follows>
+
+<text>
+A small company manufactures customized bicycles. Whenever the sales department receives an order,
+ a new process instance is created. A member of the sales department can then reject or accept the order for a customized bike. 
+ In the former case, the process instance is finished. In the latter case, the storehouse and the engineering department are 
+ informd. The storehouse immediately processes the part list of the order and checks the required quantity of each part. 
+ If the part is available in-house, it is reserved. If it is not available, it is back-ordered. This procedure is repeated for 
+ each item on the part list. In the meantime, the engineering department prepares everything for the assembling of the ordered 
+ bicycle. If the storehouse has successfully reserved or back-ordered every item of the part list and the preparation activity 
+ has finished, the engineering department assembles the bicycle. Afterwards, the sales department ships the bicycle to the 
+ customer and finishes the process instance.
+</text>
+</process>

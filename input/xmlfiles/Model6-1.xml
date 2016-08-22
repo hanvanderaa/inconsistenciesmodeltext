@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>conduct visual inspection</label>
+	</activity>
+	<activity id="2">
+		<label>identify charging supplier</label>
+	</activity>
+	<activity id="3">
+		<label>create instance</label>
+	</activity>
+	<activity id="4">
+		<label>check invoice items</label>
+	</activity>
+	<activity id="5">
+		<label>create docket</label>
+	</activity>
+	<activity id="6">
+		<label>Deliver copy of the invoice &amp; docket</label>
+	</activity>
+	<activity id="7">
+		<label>conduct check</label>
+	</activity>
+	<activity id="8">
+		<label>conduct AP</label>
+	</activity>
+	<activity id="9">
+		<label>rejection</label>
+	</activity>
+	<activity id="10">
+		<label>clarify inconsistencies</label>
+	</activity>
+	<activity id="11">
+		<label>forward copy of the invoice</label>
+	</activity>
+	<activity id="12">
+		<label>conduct commercial audit</label>
+	</activity>
+	<activity id="13">
+		<label>conduct check</label>
+	</activity>
+	<activity id="14">
+		<label>issue the approval for payment</label>
+	</activity>
+	<activity id="15">
+		<label>give payment instructions</label>
+	</activity>
+	<activity id="16">
+		<label>close instance</label>
+	</activity>
+	</activities>
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>2</pred><succ>3</succ></pair>
+	<pair><pred>3</pred><succ>4</succ></pair>
+	<pair><pred>4</pred><succ>5</succ></pair>
+	<pair><pred>5</pred><succ>6</succ></pair>
+	<pair><pred>6</pred><succ>8</succ></pair>
+	<pair><pred>6</pred><succ>9</succ></pair>
+	<pair><pred>9</pred><succ>10</succ></pair>
+	<pair><pred>8</pred><succ>11</succ></pair>
+	<pair><pred>11</pred><succ>12</succ></pair>
+	<pair><pred>12</pred><succ>14</succ></pair>
+	<pair><pred>14</pred><succ>15</succ></pair>
+	<pair><pred>15</pred><succ>16</succ></pair>
+
+	
+</follows>
+
+<text>
+As a basic principle, ACME AG receives invoices on paper or fax. These are received by the Secretariat in the central inbox and forwarded after a short visual inspection to an accounting employee. In ”ACME Financial Accounting”, a software specially developed for the ACME AG, she identifies the charging suppliers and creates a new instance (invoice). She then checks the invoice items and notes the corresponding cost center at the ACME AG and the related cost center managers for each position on a separate form (”docket”).The docket and the copy of the invoice go to the internal mail together and are sent to the first cost center manager to the list. He reviews the content for accuracy after receiving the copy of the invoice. Should everything be in order, he notes his code one on the docket (”accurate position - AP”) and returns the copy of the invoice to the internal mail. From it, the copy of the invoice is passed on to the next cost center manager, based on the docket, or if all items are marked correct, sent back to accounting. Therefore, the copy of invoice and the docket gradually move through the hands of all cost center managers until all positions are marked as completely accurate. However, if inconsistencies exist, e.g. because the ordered product is not of the expected quantity or quality, the cost center manager rejects the AP with a note and explanatory statement on the docket, and the copy of the invoice is sent back to accounting directly. Based on the statements of the cost center managers, she will proceed with the clarification with the vendor, but, if necessary, she consults the cost center managers by telephone or e-mail again. When all inconsistencies are resolved, the copy of the invoice is sent to the cost center managers again, and the process continues. After all invoice items are AP, the accounting employee forwards the copy of the invoice to the commercial manager. He makes the commercial audit and issues the approval for payment. If the bill amount exceeds EUR 20,000, the Board wants to check it again (4-eyes-principle). The copy of the invoice including the docket moves back to the accounting employee in the appropriate signature file. Should there be a complaint during the commercial audit, it will be resolved by the accounting employee with the supplier. After the commercial audit is successfully completed, the accounting employee gives payment instructions and closes the instance in ”ACME financial accounting”.
+
+
+
+</text>
+</process>

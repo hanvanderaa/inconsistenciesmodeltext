@@ -1,0 +1,7 @@
+map("prepare registration statement for approval of sec", "They prepare a registration statement for the approval of the Securities and Exchange Commission -LRB- SEC -RRB-.")
+map("buy stock", "After that they enter into a firm commitment to buy the stock and then offer it to the public when they havent still found any reason not to do it.")
+map("fix issue price", "Immediately after they receive clearance from the SEC underwriters fix the issue price.")
+map("check compliance with laws", "In addition to registering the issue with the SEC they need to check that the issue complies with the so-called blue-sky laws of each state that regulate sales of securities within the state.")
+map("offer to public", "After that they enter into a firm commitment to buy the stock and then offer it to the public when they havent still found any reason not to do it.")
+map("talk to potential investors", "They arrange a road show to talk to potential investors.")
+map("check facts presented", "Established underwriters are careful of their reputation and will not handle a new issue unless they believe the facts have been presented fairly.")

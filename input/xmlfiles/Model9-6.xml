@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Locate and re-use designs</label>
+		<verbBase>locate</verbBase>
+		<object>designs</object>
+	</activity>
+	<activity id="2">
+		<label>Review previous designs</label>
+		<verbBase>review</verbBase>
+		<object>previous designs</object>
+	</activity>
+	<activity id="3">
+		<label>Update electrical design</label>
+		<verbBase>update</verbBase>
+		<object>electrical design</object>
+	</activity>
+	<activity id="4">
+		<label>Test electrical design</label>
+		<verbBase>test</verbBase>
+		<object>electrical design</object>
+	</activity>
+		<activity id="5">
+		<label>Review previous designs</label>
+		<verbBase>review</verbBase>
+		<object>previous designs</object>
+	</activity>
+	<activity id="6">
+		<label>Update physical design</label>
+		<verbBase>update</verbBase>
+		<object>physical design</object>
+	</activity>
+	<activity id="7">
+		<label>Test physical design</label>
+		<verbBase>test</verbBase>
+		<object>physical design</object>
+	</activity>
+	<activity id="8">
+		<label>Test complete design</label>
+		<verbBase>test</verbBase>
+		<object>complete design</object>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>1</pred><succ>5</succ></pair>
+	<pair><pred>2</pred><succ>3</succ></pair>
+	<pair><pred>3</pred><succ>4</succ></pair>
+	<pair><pred>4</pred><succ>8</succ></pair>
+	<pair><pred>5</pred><succ>6</succ></pair>
+	<pair><pred>6</pred><succ>7</succ></pair>
+	<pair><pred>7</pred><succ>8</succ></pair>
+
+	
+</follows>
+
+<text>
+After the Process starts, a Task is performed to locate and distribute any relevant existing designs, both electrical and physical.
+ Next, the design of the electrical and physical systems starts in parallel. Any existing or previous Electrical and
+  Physical Designs are inputs to both Activities. Development of either design is interrupted by a successful update of the other
+   design. If interrupted, then all current work is stopped and that design must restart. In each department (Electrical Design 
+   and Physical Design), any existing designs are reviewed, resulting in an Update Plan for their respective designs (i.e. one 
+   in Electrical and another in Physical). Using the Update Plan and the existing Draft of the Electrical/Physical Design, a 
+   revised design is created. Once completed the revised design is tested. If the design fails the test, then it is sent back 
+   to the first Activity (in the department) to review and create a new Update Plan. If the design passes the test, then it tells 
+   the other department that they need to restart their work. When both of the designs have been revised, they are combined and
+    tested. If the combined design fails the test, then they are both sent back to the beginning to initiate another design cycle.
+     If the designs pass the test, then they are deemed complete and are then sent to the manufacturing Process [a separate Process].
+
+
+</text>
+</process>

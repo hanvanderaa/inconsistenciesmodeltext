@@ -1,0 +1,4 @@
+map("approve vacation request", "The supervisor must approve or reject the request.")
+map("inform employee about reject reason", "The supervisor must approve or reject the request.")
+map("verify available vacation days", "Once the requirement is registered the request is received by the immediate supervisor of the employee requesting the vacation.")
+map("register vacation request", "Once the requirement is registered the request is received by the immediate supervisor of the employee requesting the vacation.")

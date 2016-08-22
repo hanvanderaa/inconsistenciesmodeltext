@@ -1,0 +1,8 @@
+map("bring in defective computer", "A customer brings in a defective computer and the CRS checks the defect and hands out a repair cost calculation back.")
+map("prepare repair cost calculation", "A customer brings in a defective computer and the CRS checks the defect and hands out a repair cost calculation back.")
+map("continue process", "If the customer decides that the costs are acceptable the process continues otherwise she takes her computer home unrepaired.")
+map("test system functionality", "After each of these activities the proper system functionality is tested.")
+map("take computer home", "If the customer decides that the costs are acceptable the process continues otherwise she takes her computer home unrepaired.")
+map("check and configure software", "The first activity is to check and repair the hardware whereas the second activity checks and configures the software.")
+map("receive repair cost calculation", "A customer brings in a defective computer and the CRS checks the defect and hands out a repair cost calculation back.")
+map("check and repair hardware", "The first activity is to check and repair the hardware whereas the second activity checks and configures the software.")

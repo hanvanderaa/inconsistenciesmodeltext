@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>select source in optional model</label>
+	</activity>
+	<activity id="2">
+		<label>check and approve applications for optional model with required attachments</label>
+	</activity>
+	<activity id="3">
+		<label>reject</label>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>1</pred><succ>3</succ></pair>
+
+	
+</follows>
+
+<text>
+This self-service enables you to make your choices and process them digitally using a user-friendly menu. The choices are valid from January through to December. Of course, it is also possible to make a choice later in the year than January, but that choice will always apply until 31 December of that calendar year. The choice can then be extended for the next calendar year, if desired, or a new choice can be made. 
+
+Sources provide you with the necessary budget for the targets. Targets are the schemes or provisions that you choose to spend your budget on. The sources for the optional model can be chosen once a year (at the end of December) as soon as the increments have been awarded, and this choice remains valid for the rest of the year. Salary changes or changes to part-time work do not affect the amounts/hours that are used in the selection model, even if these apply retroactively from 1 January. The overview shows you which sources and targets are available for your individual situation. 
+
+The sequence of the targets is (from left to right): 
+- accrual of long-term leave
+- trade union contribution
+- bicycle
+- extra income
+- extra holiday hours
+- extra pension
+- public transport allowance 
+- study expenses 
+
+The sequence of the sources is (from top to bottom):
+- holiday hours
+- end-of-year bonus
+- holiday allowance
+- salary 
+
+First select a target that is available. Targets that are not available are shown in a paler colour. If a target is not available, you will not be able to enter a source either. If the target has a maximum, you will see the maximum and the amount available. If an amount has been used for a particular target, this amount will be deducted from the total amount available. If the chosen target requires an input in hours, the available hours will be displayed (as well as the amount). 
+
+You can set the desired contribution for each source. If the target allows contribution instalments over multiple months, then a start period (month) can also be chosen. When you select the month or click on enter, the monthly amount and the number of months will be calculated and the Total line will be updated. 
+
+If the target chosen does not allow contribution instalments over multiple months, then only the Total contribution will be shown. You may enter multiple sources for the target chosen, if desired. The total for all the sources used is displayed in the Total row for the sources. Next you need to place the choice you have made into the shopping cart by clicking on the icon or the link for the shopping cart. Your choices will remain in your shopping cart until they are submitted or deleted. If you log out and log in again at a later time, the content of your shopping cart will be the same. 
+
+The system will check whether it is necessary to add a receipt to the target that you have chosen. If this is the case, and the receipt has not been added, a red exclamation mark will appear in the column for attachments. You can add an attachment by clicking on the link.  
+
+By clicking the Tax advantage button, an amount will be shown for those targets that yield a tax advantage; for the other targets where there is no tax advantage, No tax advantage will be shown. 
+
+You can then submit your choice by clicking Submit choice. The HRM Service Desk will be sent a notification of the request that you have submitted.  The choice you make within the optional model does not need to be approved by your supervisor. In cases where a receipt must be added, the HRM Service Desk will check and approve the request. This applies to the following targets: trade union contribution, extra pension, bicycle/accessories and study expenses. You will receive notification when this request has been approved or rejected. If the request is rejected by the HRM Service Desk, a reason must be given for the rejection. You will then be sent a task to amend or withdraw your request. 
+
+For choices that have been submitted and approved, the amounts contributed for future months can be removed. If a choice needs to be approved and this has not yet been done, the task for the HRM Service Desk will be removed. If the choice has already been approved, a new approval task will be generated for the HRM Service Desk. If the choices are deleted, only the choices for months that have not yet been processed in the payroll will be deleted. Changes can never be made retroactively.
+
+Requests from a previous year’s choices can be copied. Requests that were partially deleted in the previous year cannot be copied.
+
+If a change in working time is entered into the system during the course of the calendar year, you will receive notification. This is to make you aware that the change in working time may have consequences for the choices in the optional model; you are advised to check your choices.
+
+
+</text>
+</process>

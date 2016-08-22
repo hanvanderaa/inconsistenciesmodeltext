@@ -1,0 +1,209 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Send list of problem parameters</label>
+		<verbBase>send</verbBase>
+		<object>list of problem parameters</object>
+	</activity>
+	<activity id="2">
+		<label>Enter problem report</label>
+		<verbBase>enter</verbBase>
+		<object>problem report</object>
+	</activity>
+	<activity id="3">
+		<label>Perform plausibility check</label>
+		<verbBase>perform</verbBase>
+		<object>plausibility check</object>
+	</activity>
+	<activity id="4">
+		<label>Determine significance of the customer</label>
+		<verbBase>determine</verbBase>
+		<object>significance of the customer</object>
+	</activity>
+	<activity id="5">
+		<label>Compare customer SLA and problem report</label>
+		<verbBase>compare</verbBase>
+		<object>customer SLA and problem report</object>
+	</activity>
+	<activity id="6">
+		<label>Determine counter measures incl. priorities</label>
+		<verbBase>determine</verbBase>
+		<object>counter measures incl. priorities</object>
+	</activity>
+	<activity id="7">
+		<label>Create detailed problem report incl. contract commitment data and actions</label>
+		<verbBase>create</verbBase>
+		<object>detailed problem report incl. contract commitment data and actions</object>
+	</activity>
+	<activity id="8">
+		<label>Create report for customer about performance and problem resolution</label>
+		<verbBase>create</verbBase>
+		<object>report for customer about performance and problem resolution</object>
+	</activity>
+	<activity id="9">
+		<label>report sla violation rebate to billing &amp; collections for billing adjustment</label>
+		<verbBase>report</verbBase>
+		<object>SLA violation rebate</object>
+	</activity>
+	<activity id="10">
+		<label>Investigate whether problem is analyzable at this level</label>
+		<verbBase>investigate</verbBase>
+		<object>whether problem is analyzable</object>
+	</activity>
+	<activity id="11">
+		<label>Perform problem analysis</label>
+		<verbBase>perform</verbBase>
+		<object>problem analysis</object>
+	</activity>
+	<activity id="12">
+		<label>Create trouble report indicating the type of problem</label>
+		<verbBase>create</verbBase>
+		<object>trouble report</object>
+	</activity>
+	<activity id="13">
+		<label>Prepare final status report</label>
+		<verbBase>prepare</verbBase>
+		<object>final status report</object>
+	</activity>
+	<activity id="14">
+		<label>Determine counter measures based on the final status report</label>
+		<verbBase>determine</verbBase>
+		<object>counter measures based on the final status report</object>
+	</activity>
+	<activity id="15">
+		<label>Send out actual service performance</label>
+		<verbBase>send</verbBase>
+		<object>actual service performance</object>
+	</activity>
+	<activity id="16">
+		<label>Undertake corrective actions</label>
+		<verbBase>undertake</verbBase>
+		<object>corrective actions</object>
+	</activity>
+	<activity id="17">
+		<label>Create report for automatic resource restoration</label>
+		<verbBase>create</verbBase>
+		<object>report for automatic resource restoration</object>
+	</activity>
+	<activity id="18">
+		<label>Create problem resolution report</label>
+		<verbBase>create</verbBase>
+		<object>problem resolution report</object>
+	</activity>
+	<activity id="19">
+		<label>Check for possible problems</label>
+		<verbBase>check</verbBase>
+		<object>for possible problems</object>
+	</activity>
+	<activity id="20">
+		<label>Create notification of normal service execution</label>
+		<verbBase>create</verbBase>
+		<object>notification of normal service execution</object>
+	</activity>
+	<activity id="21">
+		<label>Analyze problem causes in detail</label>
+		<verbBase>analyze</verbBase>
+		<object>problem causes</object>
+	</activity>
+	<activity id="22">
+		<label>Create trouble report</label>
+		<verbBase>create</verbBase>
+		<object>trouble report</object>
+	</activity>
+	<activity id="23">
+		<label>create status report</label>
+		<verbBase>create</verbBase>
+		<object>status report</object>
+	</activity>
+	<activity id="24">
+		<label>Track errors</label>
+		<verbBase>track</verbBase>
+		<object>errors</object>
+	</activity>
+	<activity id="25">
+		<label>Undertake corrective actions</label>
+		<verbBase>undertake</verbBase>
+		<object>corrective actions</object>
+	</activity>
+	<activity id="26">
+		<label>Create trouble-shooting report</label>
+		<verbBase>create</verbBase>
+		<object>trouble-shooting report</object>
+	</activity>
+	
+	
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>2</pred><succ>3</succ></pair>
+	<pair><pred>3</pred><succ>4</succ></pair>
+	<pair><pred>4</pred><succ>5</succ></pair>
+	<pair><pred>5</pred><succ>6</succ></pair>
+	<pair><pred>6</pred><succ>7</succ></pair>
+	<pair><pred>7</pred><succ>8</succ></pair>
+	<pair><pred>7</pred><succ>9</succ></pair>
+	<pair><pred>7</pred><succ>10</succ></pair>
+	<pair><pred>10</pred><succ>11</succ></pair>	
+	<pair><pred>11</pred><succ>12</succ></pair>
+	<pair><pred>12</pred><succ>13</succ></pair>
+	<pair><pred>13</pred><succ>14</succ></pair>
+	<pair><pred>14</pred><succ>15</succ></pair>
+	<pair><pred>14</pred><succ>16</succ></pair>
+	<pair><pred>14</pred><succ>17</succ></pair>
+	<pair><pred>15</pred><succ>8</succ></pair>
+	<pair><pred>15</pred><succ>9</succ></pair>
+	<pair><pred>16</pred><succ>18</succ></pair>
+	<pair><pred>17</pred><succ>18</succ></pair>
+	<pair><pred>10</pred><succ>19</succ></pair>
+	<pair><pred>19</pred><succ>20</succ></pair>
+	<pair><pred>19</pred><succ>21</succ></pair>
+	<pair><pred>21</pred><succ>22</succ></pair>
+	<pair><pred>20</pred><succ>23</succ></pair>
+	<pair><pred>22</pred><succ>23</succ></pair>
+	<pair><pred>23</pred><succ>24</succ></pair>
+	<pair><pred>24</pred><succ>25</succ></pair>
+	<pair><pred>25</pred><succ>26</succ></pair>
+	
+</follows>
+
+<text>
+At the beginning the customer perceives that her subscribed service has degraded. A list with all the problem parameters is
+ then sent to the Customer Service department of TELECO. At the customer service an employee enters (based on the received data)
+  a problem report into system T. Then the problem report is compared to the customer SLA to identify what the extent and 
+  the details of the service degradation are. Based on this, the necessary counter measures are determined including their
+   respective priorities. An electronic service then determines the significance of the customer based on information that
+    has been collected during the history of the contractual relationship. In case the customer is premium, the process will
+     link to an extra problem fix process (this process will not be detailed here). In case the customer is of certain 
+     significance which would affect the counter measures previously decided upon, the process goes back to re-prioritize 
+     these measures otherwise the process continues. Taking together the information (i.e. contract commitment data + prioritized
+      actions) a detailed problem report is created. The detailed problem report is then sent to Service Management. 
+      Service Management deals on a first level with violations of quality in services that are provided to customers. 
+      After receiving the detailed problem report, Service management investigates whether the problem is analyzable at the
+       level of their department or whether the problem may be located at Resource Provisioning. In case Service Management
+        assesses the problem to be not analyzable by themselves, the detailed problem report is sent out to Resource Provisioning. 
+        If Service Management is sure they can analyze it, they perform the analysis and based on the outcome they create 
+        a trouble report that indicates the type of problem. After Resource Provisioning receives the detailed problem report, 
+        it is checked whether there are any possible problems. If no problems are detected, a notification about the normal
+         service execution is created. If a problem is detected this will be analyzed by Resource Provisioning and a trouble
+          report is created. Either trouble report or the normal execution notification will be included in a status report 
+          and sent back to Service Management. Service Management then prepares the final status report based on the received
+           information. Subsequently it has to be determined what counter measures should be taken depending on the information
+            in the final status report. Three alternative process paths may be taken. For the case that no problem was detected 
+            at all, the actual service performance is sent back to the Customer Service. For the case that minor corrective 
+            actions are required, Service Management will undertake corrective actions by themselves. Subsequently, 
+            the problem resolution report is created and then sent out to Customer Service. After sending, this process path 
+            of Service Management ends. For the case that automatic resource restoration from Resource Provisioning is required,
+             Service Management must create a request for automatic resource restoration. This message is then sent to 
+             Resource Provisioning. Resource Provisioning has been on-hold and waiting for a restoration request but this 
+             must happen within 2 days after the status report was sent out, otherwise Resource Provisioning terminates the process. After the restoration request is received, all possible errors are tracked. Based on the tracked errors, all necessary corrective actions are undertaken by Resource Provisioning. Then a trouble-shooting report is created. This report is sent out to Service Management; then the process ends. The trouble-shooting report is received by Service Management and this information goes then into the creation of the problem resolution report just as described for ii). Customer Service either receives the actual service performance (if there was no problem) or the problem resolution report. Then, two concurrent activities are triggered, i.e. i) a report is created for the customer which details the current service performance and the resolution of the problem, and ii) an SLA violation rebate is reported to Billing \and Collections who will adjust the billing. The report for the customer is sent out to her. After all three activities are completed the process ends within Customer Service. After the customer then receives the report about service performance and problem resolution from Customer Service, the process flow at the customer also ends.
+
+
+
+</text>
+</process>

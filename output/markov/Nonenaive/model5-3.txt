@@ -1,0 +1,8 @@
+map("process invoice", "If the request is rejected the process will end.")
+map("approve office supply request", "The process of an Office Supply Request starts when any employee of the organization submits an office supply request.")
+map("generate purchase order", "After a vendor is selected and confirmed the system will generate and send a purchase order and wait for the product to be delivered and the invoice received.")
+map("receive products", "After a vendor is selected and confirmed the system will generate and send a purchase order and wait for the product to be delivered and the invoice received.")
+map("notify about rejection", "In any of the cases approval rejection or change required the system will send the user a notification.")
+map("notify about approval", "In any of the cases approval rejection or change required the system will send the user a notification.")
+map("notify about required change", "The supervisor must approve or ask for a change or reject the request.")
+map("register office supply request", "Once the requirement is registered the request is received by the immediate supervisor of the employee requesting the office supplies.")

@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Check customer details</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="2">
+		<label>Reject claim</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="3">
+		<label>Evaluate severity</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="4">
+		<label>Send relevant forms</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="5">
+		<label>Check for completeness</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="6">
+		<label>Register claim</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>1</pred><succ>3</succ></pair>
+	<pair><pred>3</pred><succ>4</succ></pair>
+	<pair><pred>4</pred><succ>5</succ></pair>
+	<pair><pred>5</pred><succ>6</succ></pair>
+
+	
+</follows>
+
+<text>
+When a claim is received, it is first checked whether the claimant is insured by the organization. If not, the claimant is informd that the claim must be rejected. Otherwise, the severity of the claim is evaluated. Based on the outcome (simple or complex claims), relevant forms are sent to the claimant. Once the forms are returned, they are checked for completeness. If the forms provide all relevant details, the claim is registered in the Claims Management system, which ends the Claims Notification process. Otherwise, the claimant is informd to update the forms. Upon reception of the updated forms, they are checked again.
+
+
+
+</text>
+</process>

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Activate or de-activate holiday leave registration</label>
+	</activity>
+	<activity id="2">
+		<label>approve choice for holiday leave registration</label>
+	</activity>
+	<activity id="3">
+		<label>reject</label>
+	</activity>
+	<activity id="4">
+		<label>Choice for holiday leave registration saved in system</label>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>1</pred><succ>3</succ></pair>
+	<pair><pred>2</pred><succ>4</succ></pair>
+
+	
+</follows>
+
+<text>
+Activate or de-activate holiday leave registration
+On this screen you can choose whether or not to apply holiday registration. If you choose not to apply holiday registration, it will be assumed that you will take all your leave days during the course of the year. The balance of leave days will then be reset to zero on 31 December of any calendar year. If your employment is terminated, it will be also assumed that you have taken all the leave days that you are entitled to. You will not receive payment for outstanding leave days. 
+Please note: You can change the settings from ‘holiday registration on’ to ‘holiday registration off’ at any time you wish during the calendar year. However, if you change the settings from ‘holiday registration off’ to ‘holiday registration on’ this will only come into effect from 1 January in the subsequent calendar year. 
+Your name and employee number are already listed on the screen. The start date always appears as today’s date. You can change this to 1 January of the next calendar year. 
+Click on select. Then under the Holiday Registration tab you can select whether you want to apply normal holiday registration or no holiday registration. Then click on send.  The request will then be sent to your supervisor, who will approve or reject it. If your supervisor approves your request, the change will be processed in the system immediately. If your supervisor declines the request, the application will be returned to the you with an instruction to withdraw the request.
+
+</text>
+</process>

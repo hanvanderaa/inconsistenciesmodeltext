@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>apply for training</label>
+	</activity>
+	<activity id="2">
+		<label>assess training request</label>
+	</activity>
+	<activity id="3">
+		<label>reject</label>
+	</activity>
+	<activity id="4">
+		<label>assess training request</label>
+	</activity>
+	<activity id="5">
+		<label>training details saved in system</label>
+	</activity>
+	<activity id="6">
+		<label>create training agreement</label>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>1</pred><succ>3</succ></pair>
+	<pair><pred>3</pred><succ>4</succ></pair>
+	<pair><pred>4</pred><succ>5</succ></pair>
+	<pair><pred>5</pred><succ>6</succ></pair>
+
+	
+</follows>
+
+<text>
+You can use this Self-Service to submit a training request to your supervisor. This is generally done in response to agreements that you have made with your supervisor during your annual consultation and assessment. You can also use this Self-Service to register training or modify an existing training arrangement. 
+
+The start date will always appear as today’s date. Click on select. Any training requests that you have made as a staff member will appear on the screen, as well as the status of these requests. By clicking on a line and then clicking on ‘display’, you can view the selected request. 
+Click on Add. A new screen will then open. 
+
+There are some fields that you must complete or where you can make a selection from the list shown;
+- Type of course
+- Field of study
+- Name of course
+- Training institute
+- Start of training programme: the date on which the training programme will begin
+- End of training programme: the date on which the training programme is due to finish
+- Completion: choose whether a certificate will be awarded at the end of the training programme and whether an exam needs to be taken, or whether this is not applicable. 
+
+Select the reason for requesting the training programme from the list. If you choose ‘other’, please provide a detailed explanation of the reason for wanting to follow the training programme so that your request can be assessed. 
+
+The cost of the training programme and the VAT are required fields. You can specify these costs in terms of the total cost per year or per month. 
+
+Select whether there is any obligation to repay these costs. If you select ‘no’ here, you are required to provide an explanation; if you select ‘yes’, an explanation is optional. 
+
+In the field Explanation / other comments you can give further explanation of your request for training, if relevant. 
+
+If you have access to a written quote from the training institute, you can add this as an attachment (in PDF format). 
+
+When you have entered all the details relating to the training request, click on ‘send’ and the request will be forwarded to your supervisor for approval. The supervisor will receive a task in his or her task list. If your supervisor rejects your training request, then an explanation for the rejection must be given. You will then receive a task to amend or withdraw your training request. If your supervisor approves your training request, you will receive notification of the approval. 
+
+Once the supervisor has approved your training request, it will be forwarded for review by the personnel consultant. If the personnel consultant also approves your training request, the details of the training request will be stored in the system. A task will then be sent to the HRM Service Desk to draft a training agreement. 
+
+
+</text>
+</process>

@@ -1,0 +1,5 @@
+map("confirm deregistration preliminarily", "The GO rejects the deregistration of the MSPO or the GO preliminarily confirms the deregistration of the MSPO.")
+map("deregister", "The MSPO deregisters at the GO.")
+map("reject deregistration", "The GO rejects the deregistration of the MSPO or the GO preliminarily confirms the deregistration of the MSPO.")
+map("assign go as msp", "The GO assigns himself as MSP.")
+map("inform about the new assignment", "The GO informs the MPO about the assignment of the GO.")

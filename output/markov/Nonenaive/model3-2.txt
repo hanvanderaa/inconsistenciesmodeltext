@@ -1,0 +1,6 @@
+map("hand files to associate", "Once all the files are ready these are handed to the Associate and meantime the Judges Lawlist is distributed to the relevant people.")
+map("initiate search", "If some files are missing a search is initiated otherwise the files can be physically tracked to the intended location.")
+map("track physical files", "If some files are missing a search is initiated otherwise the files can be physically tracked to the intended location.")
+map("conduct directions hearings", "Afterwards the directions hearings are conducted.")
+map("check files", "Each morning the files which have yet to be processed need to be checked to make sure they are in order for the court hearing that day.")
+map("distribute judge's lawlist", "Once all the files are ready these are handed to the Associate and meantime the Judges Lawlist is distributed to the relevant people.")

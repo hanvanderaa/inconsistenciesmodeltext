@@ -1,0 +1,5 @@
+map("deny", "If the customer is high risk the loan is denied.")
+map("return approval response", "The loan approval process starts by receiving a customer request for a loan amount.")
+map("invoke loan approval", "The loan approval process starts by receiving a customer request for a loan amount.")
+map("invoke risk assessor", "The customer receives feedback from the assessor or approver.")
+map("approve", "If the loan is small and the customer is low risk the loan is approved.")

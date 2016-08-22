@@ -1,0 +1,4 @@
+map("send invoice", "c -RRB- The supplier sends an invoice to Assembler AG.")
+map("create order", "a -RRB- Assembler AG sends the order to the supplier.")
+map("process order", "b -RRB- The supplier processes the order.")
+map("receive invoice", "d -RRB- Assembler AG receives the invoice.")

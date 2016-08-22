@@ -1,0 +1,4 @@
+map("request a device takeover bid", "The MPON requests a device takeover bid of the MPOO.")
+map("confirm order and transmission of master data", "The MPOO confirms the order of the MPON and sends the master data.")
+map("tender the equipment takeover", "The MPOO sends a tender for the equipment takeover to the MPON.")
+map("order", "The MPON places an order at the MPOO.")

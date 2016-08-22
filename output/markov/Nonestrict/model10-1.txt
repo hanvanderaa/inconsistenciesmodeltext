@@ -1,0 +1,4 @@
+map("conduct dismissal", "The MPON sents the dismissal to the MPOO.")
+map("review", "The MPOO reviews the dismissal.")
+map("reject the dismissal", "The MPOO opposes the dismissal of MPON or the MPOO confirmes the dismissal of the MPON.")
+map("confirm the dismissal", "The MPOO opposes the dismissal of MPON or the MPOO confirmes the dismissal of the MPON.")

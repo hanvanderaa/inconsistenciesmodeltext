@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Bring in defective computer</label>
+		<verb>bring </verb>
+		<verbBase>bring</verbBase>
+		<object>defective computer</object>
+	</activity>
+	<activity id="2">
+		<label>Prepare repair cost calculation</label>
+		<verb>prepare</verb>
+		<verbBase>prepare</verbBase>
+		<object>repair cost calculation</object>
+	</activity>
+	<activity id="3">
+		<label>Receive repair cost calculation</label>
+		<verb>receive</verb>
+		<verbBase>receive</verbBase>
+		<object>repair cost calculation</object>
+	</activity>
+	<activity id="4">
+		<label>Take computer home</label>
+		<verb>take</verb>
+		<verbBase>take</verbBase>
+		<object>computer home</object>
+	</activity>
+	<activity id="5">
+		<label>Continue process</label>
+		<verb>continue</verb>
+		<verbBase>continue</verbBase>
+		<object>process</object>
+	</activity>
+	<activity id="6">
+		<label>Check and repair hardware</label>
+		<verb>check</verb>
+		<verb>repair</verb>
+		<verbBase>repair</verbBase>
+		<object>hardware</object>
+	</activity>
+	<activity id="7">
+		<label>Check and configure software</label>
+		<verb>check</verb>
+		<verb>configure</verb>
+		<verbBase>configure</verbBase>
+		<object>hardware</object>
+	</activity>
+	<activity id="8">
+		<label>Test system functionality</label>
+		<verb>test</verb>
+		<verbBase>test</verbBase>
+		<object>system functionality</object>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>2</pred><succ>3</succ></pair>
+	<pair><pred>3</pred><succ>4</succ></pair>
+	<pair><pred>3</pred><succ>5</succ></pair>
+	<pair><pred>5</pred><succ>6</succ></pair>
+	<pair><pred>5</pred><succ>7</succ></pair>
+	<pair><pred>7</pred><succ>8</succ></pair>
+	
+</follows>
+
+<text>
+A customer brings in a defective computer and the CRS checks the defect and hands out a repair cost calculation back.
+ If the customer decides that the costs are acceptable, the process continues, otherwise she takes her computer home unrepaired.
+  The ongoing repair consists of two activities, which are executed, in an arbitrary order. The first activity is to check and
+   repair the hardware, whereas the second activity checks and configures the software. After each of these activities, 
+   the proper system functionality is tested. If an error is detected another arbitrary repair activity is executed, otherwise 
+   the repair is finished.
+
+
+
+</text>
+</process>

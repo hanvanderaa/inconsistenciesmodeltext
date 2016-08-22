@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Collect mail</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="2">
+		<label>Sort unopened mail</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="3">
+		<label>Sort opened mail</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="4">
+		<label>Register mail</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="5">
+		<label>Check mail compliance</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="6">
+		<label>Compile mail document requisition</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="7">
+		<label>Capture mailed document matter details</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="8">
+		<label>Receipt P&amp;E fee payment</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="9">
+		<label>Prepare mailed document response</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="10">
+		<label>Capture P&amp;E party details</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="11">
+		<label>Print physical file</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>2</pred><succ>3</succ></pair>
+	<pair><pred>3</pred><succ>4</succ></pair>
+	<pair><pred>4</pred><succ>5</succ></pair>
+	<pair><pred>5</pred><succ>6</succ></pair>
+	<pair><pred>5</pred><succ>7</succ></pair>
+	<pair><pred>7</pred><succ>8</succ></pair>
+	<pair><pred>8</pred><succ>9</succ></pair>
+	<pair><pred>8</pred><succ>10</succ></pair>
+	<pair><pred>10</pred><succ>11</succ></pair>
+
+	
+</follows>
+
+<text>
+Mail from the party is collected on a daily basis by the Mail Processing Unit. Within this unit, the Mail Clerk sorts the unopened mail into the various business areas. The mail is then distributed. When the mail is received by the Registry, it is opened and sorted into groups for distribution, and thus registered in a manual incoming Mail Register. Afterwards, the Assistant Registry Manager within the Registry performs a quality check. If the mail is not compliant, a list of requisition explaining the reason for rejection is compiled and sent back to the party. Otherwise, the matter details (types of action) are captured and provided to the Cashier, who takes the applicable fees attached to the mail. At this point, the Assistant Registry Manager puts the receipt and copied documents into an envelope and posts it to the party. Meantime, the Cashier captures the Party Details and prints the Physical Court File. 
+
+
+</text>
+</process>

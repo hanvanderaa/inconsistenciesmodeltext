@@ -1,0 +1,6 @@
+map("check crm systems", "Once the new defaulting account report has been completed check the CRM system to see whether new returns have been filed.")
+map("backup database", "Every weekday morning the database is backed up and then it is checked to see whether the Account Defaulters table has new records.")
+map("reconcile with account defaulters table", "If new returns have been filed reconcile with the existing account defaulters table.")
+map("register defaulting customers and accounts", "If new returns exist then register all defaulting accounts and customers.")
+map("previous defaulting clients", "If the defaulting client codes have not been previously advised produce another table of defaulting accounts and send to account management.")
+map("alert supervisor", "All of this must be completed by 2:30 pm if it is not then an alert should be sent to the supervisor.")

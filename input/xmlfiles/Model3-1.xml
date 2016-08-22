@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Retrieve SCTT file</label>
+		<verbBase>retrieve</verbBase>
+		<object>SCT file</object>
+	</activity>
+	<activity id="2">
+		<label>Distribute SCT warrant possession</label>
+		<verbBase>distribute</verbBase>
+		<object>SCT warrant possession</object>
+	</activity>
+	<activity id="3">
+		<label>Store SCTT physical file</label>
+		<verbBase>store</verbBase>
+		<object>SCT physical file</object>
+	</activity>
+	<activity id="4">
+		<label>Retrieve SCT file</label>
+		<verbBase>retrieve</verbBase>
+		<object>SCT file</object>
+	</activity>
+	<activity id="5">
+		<label>Attach new SCT document</label>
+		<verbBase>attach</verbBase>
+		<object>new SCT document</object>
+	</activity>
+	<activity id="6">
+		<label>Store SCT physical file</label>
+		<verbBase>store</verbBase>
+		<object>SCT physical file</object>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>2</pred><succ>3</succ></pair>
+	<pair><pred>3</pred><succ>4</succ></pair>
+	<pair><pred>4</pred><succ>5</succ></pair>
+	<pair><pred>5</pred><succ>6</succ></pair>
+
+	
+</follows>
+
+<text>
+The party sends a warrant possession request asking a warrant to be released. 
+The Client Service Back Office as part of the Small Claims Registry Operations receives the request and retrieves the SCT file. 
+Then, the SCT Warrant Possession is forwarded to Queensland Police. The SCT physical file is stored by the Back Office awaiting a 
+report to be sent by the Police. When the report is received, the respective SCT file is retrieved. Then, Back Office attaches the 
+new SCT document, and stores the expanded SCT physical file. After that, some other MC internal staff receives the physical SCT 
+file (out of scope).
+
+
+
+</text>
+</process>

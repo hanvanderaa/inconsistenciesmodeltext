@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Initiate transfer and potential change to employment contract</label>
+	</activity>
+	<activity id="2">
+		<label>approve transfer</label>
+	</activity>
+	<activity id="3">
+		<label>reject</label>
+	</activity>
+	<activity id="4">
+		<label>approve transfer</label>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>1</pred><succ>3</succ></pair>
+	<pair><pred>2</pred><succ>4</succ></pair>
+
+	
+</follows>
+
+<text>
+You would like to initiate a transfer. You will first enter the main screen of the self-service option entitled Arranging a transfer. Your employee number, name and position will already be listed. 
+
+The start date will always appear as today’s date. Here you need to enter the date on which the change should take effect, as agreed with your supervisor. 
+
+Please note: the start date can only be in a different calendar year if it is no more than two months from today’s date. 
+It is also possible to apply a change retroactively. 
+Please note: A retroactive change must still be within the current calendar year. If the date for the change is over two months ago, a notification will be sent to the payroll administration. 
+
+Next, click on select. You will then enter the selection screen. On this screen you can specify which type of transfer you wish to arrange. For a transfer within your faculty, you must first select the new department and then the new supervisor. For a transfer outside your faculty, you must first select the new faculty, then the new department and finally the new supervisor.
+
+If the transfer includes agreements on other changes, such as changes to your employment contract, you can select these here. It is possible to select more than one choice, provided that all the changes will take effect on the same date. When selecting the changes, the relevant tabs will appear below the start date and you can fill in all the details relating to each change. 
+
+You can select one or more of the following changes to the employment contract:
+1. Change in job title
+2. Change in working time / schedule / hours of work
+3. Change in salary
+4. Start or change fixed allowances 
+5. Start or change once-only allowances
+6. Change in place of work
+
+Once you have filled in the relevant tabs, click on Send. When you click on send, the form will be sent to the relevant supervisor. A task will be added to the supervisor’s task list and he or she will need to approve or reject the change request. 
+
+For the supervisor, all tabs are visible at all times, even where no changes have been made. However, the tab overview will show whether the tab has been changed or not. The supervisor can then approve or reject the change(s). If the form is rejected, it is sent back to the employee. The supervisor can make any comments in the appropriate field. If the change is approved, the form will be forwarded to the personnel consultant and the controller for further advice. 
+Subsequently, the next supervisor in the hierarchy will have to approve the change.
+
+
+1. Change in job title
+The current details will be displayed on the screen. In the New field, you can modify the details according to the new situation. 
+
+
+	•	UFO job profile: make a choice from the list shown. UFO stands for University Job Classification; the formal job description according to the Collective Labour Agreement.
+
+	•	Synonym: generally, this is the same position name as the UFO job profile. Your personnel consultant knows whether this is the case in your situation.
+
+	•	You must indicate whether you will be assuming the role of supervisor as part of your new position, yes or no.
+
+	•	If that is indeed the case, you will then be asked whether you will be assigned a role as hierarchical supervisor with the authority to create, change or terminate employment contracts, yes or no.
+	•	
+
+If you need to provide more information concerning the change(s), you can do this in the comments tab. 
+
+2. Changes in working hours / work schedule
+You must first select whether this is a change to your working hours or a change to your work schedule. If there is a change to the work schedule, it is not possible to adjust the part-time factor.  Next, select whether this is a permanent change or a temporary change. You will then need to adjust the part-time factor and change the work schedule. For changes in working hours and work schedule, a notification will be sent to the HRM Service Desk. 
+
+The work schedule determines the leave structure, and the part-time factor will determine the salary.
+If the employee wishes to change a work schedule, it is first necessary to look up whether this schedule is available by searching under search for schedule. If the schedule does not exist in the system, a request will be sent to Operational Management to create a new schedule. A temporary work schedule will then be generated and you can proceed.
+
+3. Change in salary
+The current salary scale and increments are shown. Adjust these to the new values; this is the scale associated with the UFO profile. 
+The increment date is not filled in. If you wish, you can also adjust the increment date. 
+
+4. Start or change fixed allowances
+The current salary components will be shown. Click on display to show the current values. These fields cannot be changed. By clicking on back, you will return to the start screen or the screen for changing fixed allowances, where the current salary components can be changed. 
+
+If you want to specify a new allowance (salary component), click on specify. A list of choices will appear. Select the applicable salary component from the list (personal allowance, temporary substitution allowance, management allowance, performance bonus, acquisition and retention allowance, net telephone allowance).  Enter the number and the unit (days, weeks, percentages, etc.). The end date will default to 31-12-9999. If another date is needed, please fill in the correct date. 
+
+5. Start or change one-off allowances
+Where applicable, the existing salary components will be displayed. You can change these by selecting them, if you wish. 
+If you want to select a new salary component, select ‘specify’. A list of choices will appear from which you can select the appropriate allowance.  
+
+6. Change in place of work
+The place of work at VU University Amsterdam is either the Campus (De Boelelaan) or Uilenstede. If another location is needed, fill in the required address details here.
+
+
+7. Comments tab
+You may need to make comments in this tab. The same applies to the other people involved in this process. You should be aware that these comments will be visible to the others involved in the process and will also be visible in the PDF document that will be stored in the digital personnel file.
+
+
+
+</text>
+</process>

@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>end new work placement contract or employment contract</label>
+	</activity>
+	<activity id="2">
+		<label>reject</label>
+	</activity>
+	<activity id="3">
+		<label>approve termination of employment</label>
+	</activity>
+	<activity id="4">
+		<label>approve termination of employment</label>
+	</activity>
+	<activity id="5">
+		<label>termination of employment saved in system</label>
+	</activity>
+	<activity id="6">
+		<label>process termination of employment</label>
+	</activity>
+	<activity id="7">
+		<label>enter details of international employee (if applicable)</label>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>1</pred><succ>3</succ></pair>
+	<pair><pred>3</pred><succ>4</succ></pair>
+	<pair><pred>4</pred><succ>5</succ></pair>
+	<pair><pred>5</pred><succ>6</succ></pair>
+	<pair><pred>6</pred><succ>7</succ></pair>
+	
+
+	
+</follows>
+
+<text>
+
+You want to terminate your employment at the university. On the screen you will see your personnel number and name.
+Please note: The date on which employment will be terminated is automatically set to today's date. Change this date to the first day that you will no longer be employed by the university. For example, if you wish to finish work on 1 May, fill in that date here. Then click on select. 
+
+
+In the next screen, some of the information will already be filled in: Job profile, Date of birth, Type of agreement and holiday hours available. 
+Select the reason for dismissal from the list that applies to you. 
+In the employee comments field (max. 255 characters), you can provide a further brief explanation of your reason for terminating your employment, if you have not done this already in a meeting with your supervisor. 
+
+
+Then click on Send. The request will then be forwarded to your supervisor. Your supervisor will fill in various other details, such as any compensation for holiday leave, reimbursement of study costs, and so on. After this, your termination of employment request will be forwarded to the HRM Service Desk. The HRM Service Desk will then take care of processing your termination of employment request.
+
+
+</text>
+</process>

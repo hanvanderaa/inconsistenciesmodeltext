@@ -1,0 +1,7 @@
+map("register", "The MSPN registers the measurement at the GO.")
+map("inform mspo about the assignment of the mspn", "The GO informs the MSPO about the assignment of MSPN.")
+map("assign mspn", "The GO assigns the MSPN.")
+map("inform sp about the assignment of the mspn", "The GO informs the SP about the assignment of MSPN.")
+map("reject registration", "The GO rejects the application of the MSPN or the GO confirmes the application of the MSPN.")
+map("inform mpo about the assignment of the mspn", "The GO informs the MPO about the assignment of the MSPN.")
+map("examine", "The GO examines the application of the MSPN.")

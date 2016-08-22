@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>activate or de-activate holiday leave approval</label>
+	</activity>
+	<activity id="2">
+		<label>choice to approve holiday leave record automatically has been stored in the system</label>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+
+	
+</follows>
+
+<text>
+You can use this form to change the settings for approving holiday requests, so that these can be approved automatically. The default setting is that all holiday requests must be approved by the relevant supervisor. 
+
+The start date always appears as today’s date. Then click on select. When you change this setting to ‘automatic’, this will be changed in the system immediately. The date cannot be changed to a date in the past or in the future.
+
+Please note: If you select the Automatic approval of holiday requests setting, this means that you will not receive any more holiday leave requests from your staff members. Using the status summary My team data, you can still view all the holiday leave days that your staff have arranged. If you select No automatic approval, you will continue to receive all requests for holiday leave from your staff members. 
+
+Click on send after you have made your choice, so that this can be processed by the system immediately.  
+
+You can change this setting again at any time.
+
+
+</text>
+</process>

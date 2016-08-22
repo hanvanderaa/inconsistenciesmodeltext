@@ -1,0 +1,6 @@
+map("update case file and archive", "If no answer is received after 2 weeks the case details are updated prior to archive and cancellation.")
+map("request outstanding documents", "If all pre-requisite documents are not provided a message is generated to the customer requesting outstanding documents.")
+map("update case details and archive", "If no answer is received after 2 weeks the case details are updated prior to archive and cancellation.")
+map("send out mortgage offer", "The Customer Service Representative sends a Mortgage offer to the customer and waits whether they have been previous defaulters.")
+map("assess mortgage details", "If the customer calls or writes back declining the mortgage the case details are updated and the work is then archived prior to cancellation.")
+map("finalize mortgage application", "If the customer calls or writes back declining the mortgage the case details are updated and the work is then archived prior to cancellation.")

@@ -1,0 +1,6 @@
+map("take computer home", "The first activity is to check and repair the hardware whereas the second activity checks and configures the software.")
+map("prepare repair cost calculation", "If the customer decides that the costs are acceptable the process continues otherwise she takes her computer home unrepaired.")
+map("continue process", "If an error is detected another arbitrary repair activity is executed otherwise the repair is finished.")
+map("test system functionality", "After each of these activities the proper system functionality is tested.")
+map("bring in defective computer", "A customer brings in a defective computer and the CRS checks the defect and hands out a repair cost calculation back.")
+map("receive repair cost calculation", "The ongoing repair consists of two activities which are executed in an arbitrary order.")

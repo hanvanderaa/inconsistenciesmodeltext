@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Search police report database</label>
+		<verbBase>search</verbBase>
+		<object>police report database</object>
+	</activity>
+	<activity id="2">
+		<label>Compose file</label>
+		<verbBase>compose</verbBase>
+		<object>file</object>
+	</activity>
+	<activity id="3">
+		<label>Calculate claim estimate</label>
+		<verbBase>calculate</verbBase>
+		<object>claim estimate</object>
+	</activity>
+	<activity id="4">
+		<label>Create action plan</label>
+		<verbBase>create</verbBase>
+		<object>action plan</object>
+	</activity>
+	<activity id="5">
+		<label>Negotiate estimate settlement</label>
+		<verbBase>negotiate</verbBase>
+		<object>estimate settlement</object>
+	</activity>
+	<activity id="6">
+		<label>Notify claimant</label>
+		<verbBase>notify</verbBase>
+		<object>claimant</object>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>2</pred><succ>3</succ></pair>
+	<pair><pred>3</pred><succ>4</succ></pair>
+	<pair><pred>4</pred><succ>5</succ></pair>
+	<pair><pred>5</pred><succ>6</succ></pair>
+
+	
+</follows>
+
+<text>
+
+The Police Report related to the car accident is searched within the Police Report database and put in a file
+ together with the Claim Documentation. This file serves as input to a claims handler who calculates an initial claim estimate.
+  Then, the claims handler creates an Action Plan based on an Action Plan Checklist available in the Document Management system.
+   Based on the Action Plan, a claims manager tries to negotiate a settlement on the claim estimate. The claimant is informd of
+    the outcome, which ends the process.
+
+</text>
+</process>

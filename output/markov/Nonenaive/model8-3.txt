@@ -1,0 +1,5 @@
+map("approve job description", "Under certain circumstances I must ask for corrections again otherwise I approve the job description.")
+map("ask for corrections", "Under certain circumstances I must ask for corrections again otherwise I approve the job description.")
+map("review job description", "Then I wait to get the job description for review before it is advertized.")
+map("report vacancy", "When I have detected a number of personnel requirements I report the vacancy to the Personnel Department.")
+map("communicate tasks and requirements", "Sometimes it also happens that the colleague from the HR department still has questions about the tasks and requirements before he can describe the job.")

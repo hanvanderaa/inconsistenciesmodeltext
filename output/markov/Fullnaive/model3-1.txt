@@ -1,0 +1,6 @@
+map("distribute sct warrant possession", "Then the SCT Warrant Possession is forwarded to Queensland Police.")
+map("retrieve sct file", "When the report is received the respective SCT file is retrieved.")
+map("attach new sct document", "Then Back Office attaches the new SCT document and stores the expanded SCT physical file.")
+map("store sct physical file", "Then Back Office attaches the new SCT document and stores the expanded SCT physical file.")
+map("retrieve sctt file", "The Client Service Back Office as part of the Small Claims Registry Operations receives the request and retrieves the SCTT file.")
+map("store sctt physical file", "The SCTT physical file is stored by the Back Office awaiting a report to be sent by the Police.")

@@ -1,0 +1,5 @@
+map("review report", "When a vacancy is reported to me I create a job description from the information.")
+map("correct job description", "Then I correct the description and submit it again for consideration.")
+map("create job description", "When a vacancy is reported to me I create a job description from the information.")
+map("ask for details and requirements", "Sometimes there is still confusion in the message then I must ask the Department again.")
+map("advertise post", "If the description is finally approved I post the job.")

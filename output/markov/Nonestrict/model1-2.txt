@@ -1,0 +1,4 @@
+map("take computer home", "If the customer decides that the costs are acceptable the process continues otherwise she takes her computer home unrepaired.")
+map("continue process", "If the customer decides that the costs are acceptable the process continues otherwise she takes her computer home unrepaired.")
+map("test system functionality", "After each of these activities the proper system functionality is tested.")
+map("bring in defective computer", "A customer brings in a defective computer and the CRS checks the defect and hands out a repair cost calculation back.")

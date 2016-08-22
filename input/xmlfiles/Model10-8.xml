@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Deregister</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="2">
+		<label>confirm deregistration preliminarily</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="3">
+		<label>Reject deregistration</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="4">
+		<label>Assign GO as MSP</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="5">
+		<label>Inform about the new assignment</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	</activities>
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>1</pred><succ>3</succ></pair>
+	<pair><pred>2</pred><succ>4</succ></pair>
+	<pair><pred>4</pred><succ>5</succ></pair>
+
+	
+</follows>
+
+<text>
+The MSPO deregisters at the GO. The GO verifies the deregistration. The GO rejects the deregistration of the MSPO or the GO preliminarily confirms the deregistration of the MSPO. The GO assigns himself as MSP. The GO informs the MSPO about the end of the assignment and the beginning of the assignment of the GO. The GO informs the MPO about the assignment of the GO. The GO informs the SP about the assignment of the GO.
+
+
+
+</text>
+</process>

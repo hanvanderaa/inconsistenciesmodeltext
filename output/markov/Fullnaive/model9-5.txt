@@ -1,0 +1,7 @@
+map("conduct supervisor review", "The report is then reviewed for automatic approval.")
+map("approve in progress email", "If the request is not completed in 7 days then the employee must receive an approval in progress email.")
+map("transfer to employee account", "After the Expense Report is received a new account must be created if the employee does not already have one.")
+map("advise employee to start again", "If the request is not completed in 7 days then the employee must receive an approval in progress email.")
+map("notify employee", "If the request is not completed in 7 days then the employee must receive an approval in progress email.")
+map("create account", "After the Expense Report is received a new account must be created if the employee does not already have one.")
+map("review for pre-approval", "The report is then reviewed for automatic approval.")

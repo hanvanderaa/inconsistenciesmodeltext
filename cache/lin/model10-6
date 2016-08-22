@@ -1,0 +1,975 @@
+conduct-The	0.0
+conduct-MSPN	0.0
+conduct-the	0.0
+conduct-a	0.0873396966946132
+conduct-MSPO	0.0
+conduct-dismissal	0.26521787385391915
+conduct-to	0.0
+conduct-.	0.0
+conduct-sents	0.0
+conduct-dismissal	0.26521787385391915
+dismissal-The	0.0
+dismissal-MSPN	0.0
+dismissal-the	0.0
+dismissal-a	0.07170427105692957
+dismissal-MSPO	0.0
+dismissal-dismissal	1.0
+dismissal-to	0.0
+dismissal-.	0.0
+dismissal-sents	0.0
+dismissal-dismissal	1.0
+The-conduct	0.0
+The-dismissal	0.0
+MSPN-conduct	0.0
+MSPN-dismissal	0.0
+the-conduct	0.0
+the-dismissal	0.0
+a-conduct	0.0873396966946132
+a-dismissal	0.07170427105692957
+a-conduct	0.0873396966946132
+MSPO-conduct	0.0
+MSPO-dismissal	0.0
+dismissal-conduct	0.26521787385391915
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+to-conduct	0.0
+to-dismissal	0.0
+.-conduct	0.0
+.-dismissal	0.0
+sents-conduct	0.0
+sents-dismissal	0.0
+conduct-The	0.0
+conduct-the	0.0
+conduct-MSPO	0.0
+conduct-reviews	0.0
+conduct-dismissal	0.26521787385391915
+conduct-.	0.0
+conduct-dismissal	0.26521787385391915
+dismissal-The	0.0
+dismissal-the	0.0
+dismissal-MSPO	0.0
+dismissal-reviews	0.0
+dismissal-dismissal	1.0
+dismissal-.	0.0
+dismissal-dismissal	1.0
+The-conduct	0.0
+The-dismissal	0.0
+the-conduct	0.0
+the-dismissal	0.0
+MSPO-conduct	0.0
+MSPO-dismissal	0.0
+reviews-conduct	0.0
+reviews-dismissal	0.0
+dismissal-conduct	0.26521787385391915
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+.-conduct	0.0
+.-dismissal	0.0
+conduct-MSPN	0.0
+conduct-MSPO	0.0
+conduct-or	-0.0
+conduct-.	0.0
+conduct-The	0.0
+conduct-the	0.0
+conduct-rejects	0.0
+conduct-dismissal	0.26521787385391915
+conduct-of	0.0
+conduct-confirms	0.0
+conduct-dismissal	0.26521787385391915
+dismissal-MSPN	0.0
+dismissal-MSPO	0.0
+dismissal-or	-0.0
+dismissal-.	0.0
+dismissal-The	0.0
+dismissal-the	0.0
+dismissal-rejects	0.0
+dismissal-dismissal	1.0
+dismissal-of	0.0
+dismissal-confirms	0.0
+dismissal-dismissal	1.0
+MSPN-conduct	0.0
+MSPN-dismissal	0.0
+MSPO-conduct	0.0
+MSPO-dismissal	0.0
+or-conduct	-0.0
+or-dismissal	-0.0
+.-conduct	0.0
+.-dismissal	0.0
+The-conduct	0.0
+The-dismissal	0.0
+the-conduct	0.0
+the-dismissal	0.0
+rejects-conduct	0.0
+rejects-dismissal	0.0
+dismissal-conduct	0.26521787385391915
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+of-conduct	0.0
+of-dismissal	0.0
+confirms-conduct	0.0
+confirms-dismissal	0.0
+review-The	0.0
+review-MSPN	0.0
+review-the	0.0
+review-a	0.07658811871630476
+review-MSPO	0.0
+review-dismissal	0.160740483707368
+review-to	0.0
+review-.	0.0
+review-sents	0.0
+review-dismissal	0.160740483707368
+The-review	0.0
+MSPN-review	0.0
+the-review	0.0
+a-review	0.07658811871630476
+a-review	0.07658811871630476
+MSPO-review	0.0
+dismissal-review	0.160740483707368
+dismissal-review	0.160740483707368
+to-review	0.0
+.-review	0.0
+sents-review	0.0
+review-The	0.0
+review-the	0.0
+review-MSPO	0.0
+review-reviews	0.0
+review-dismissal	0.160740483707368
+review-.	0.0
+review-dismissal	0.160740483707368
+The-review	0.0
+the-review	0.0
+MSPO-review	0.0
+reviews-review	0.0
+dismissal-review	0.160740483707368
+dismissal-review	0.160740483707368
+.-review	0.0
+review-MSPN	0.0
+review-MSPO	0.0
+review-or	-0.0
+review-.	0.0
+review-The	0.0
+review-the	0.0
+review-rejects	0.0
+review-dismissal	0.160740483707368
+review-of	0.0
+review-confirms	0.0
+review-dismissal	0.160740483707368
+MSPN-review	0.0
+MSPO-review	0.0
+or-review	-0.0
+.-review	0.0
+The-review	0.0
+the-review	0.0
+rejects-review	0.0
+dismissal-review	0.160740483707368
+dismissal-review	0.160740483707368
+of-review	0.0
+confirms-review	0.0
+reject-The	0.0
+reject-MSPN	0.0
+reject-the	0.0
+reject-a	0.0
+reject-MSPO	0.0
+reject-dismissal	0.0
+reject-to	0.0
+reject-.	0.0
+reject-sents	0.0
+dismissal-The	0.0
+dismissal-MSPN	0.0
+dismissal-the	0.0
+dismissal-a	0.07170427105692957
+dismissal-MSPO	0.0
+dismissal-dismissal	1.0
+dismissal-to	0.0
+dismissal-.	0.0
+dismissal-sents	0.0
+dismissal-dismissal	1.0
+The-reject	0.0
+The-dismissal	0.0
+MSPN-reject	0.0
+MSPN-dismissal	0.0
+the-reject	0.0
+the-dismissal	0.0
+a-reject	0.0
+a-dismissal	0.07170427105692957
+a-dismissal	0.07170427105692957
+MSPO-reject	0.0
+MSPO-dismissal	0.0
+dismissal-reject	0.0
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+to-reject	0.0
+to-dismissal	0.0
+.-reject	0.0
+.-dismissal	0.0
+sents-reject	0.0
+sents-dismissal	0.0
+reject-The	0.0
+reject-the	0.0
+reject-MSPO	0.0
+reject-reviews	0.0
+reject-dismissal	0.0
+reject-.	0.0
+dismissal-The	0.0
+dismissal-the	0.0
+dismissal-MSPO	0.0
+dismissal-reviews	0.0
+dismissal-dismissal	1.0
+dismissal-.	0.0
+dismissal-dismissal	1.0
+The-reject	0.0
+The-dismissal	0.0
+the-reject	0.0
+the-dismissal	0.0
+MSPO-reject	0.0
+MSPO-dismissal	0.0
+reviews-reject	0.0
+reviews-dismissal	0.0
+dismissal-reject	0.0
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+.-reject	0.0
+.-dismissal	0.0
+reject-MSPN	0.0
+reject-MSPO	0.0
+reject-or	0.0
+reject-.	0.0
+reject-The	0.0
+reject-the	0.0
+reject-rejects	0.0
+reject-dismissal	0.0
+reject-of	0.0
+reject-confirms	0.0
+dismissal-MSPN	0.0
+dismissal-MSPO	0.0
+dismissal-or	-0.0
+dismissal-.	0.0
+dismissal-The	0.0
+dismissal-the	0.0
+dismissal-rejects	0.0
+dismissal-dismissal	1.0
+dismissal-of	0.0
+dismissal-confirms	0.0
+dismissal-dismissal	1.0
+MSPN-reject	0.0
+MSPN-dismissal	0.0
+MSPO-reject	0.0
+MSPO-dismissal	0.0
+or-reject	0.0
+or-dismissal	-0.0
+.-reject	0.0
+.-dismissal	0.0
+The-reject	0.0
+The-dismissal	0.0
+the-reject	0.0
+the-dismissal	0.0
+rejects-reject	0.0
+rejects-dismissal	0.0
+dismissal-reject	0.0
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+of-reject	0.0
+of-dismissal	0.0
+confirms-reject	0.0
+confirms-dismissal	0.0
+confirm-The	0.0
+confirm-MSPN	0.0
+confirm-the	0.0
+confirm-a	0.0
+confirm-MSPO	0.0
+confirm-dismissal	0.0
+confirm-to	0.0
+confirm-.	0.0
+confirm-sents	0.0
+dismissal-The	0.0
+dismissal-MSPN	0.0
+dismissal-the	0.0
+dismissal-a	0.07170427105692957
+dismissal-MSPO	0.0
+dismissal-dismissal	1.0
+dismissal-to	0.0
+dismissal-.	0.0
+dismissal-sents	0.0
+dismissal-dismissal	1.0
+The-confirm	0.0
+The-dismissal	0.0
+MSPN-confirm	0.0
+MSPN-dismissal	0.0
+the-confirm	0.0
+the-dismissal	0.0
+a-confirm	0.0
+a-dismissal	0.07170427105692957
+a-dismissal	0.07170427105692957
+MSPO-confirm	0.0
+MSPO-dismissal	0.0
+dismissal-confirm	0.0
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+to-confirm	0.0
+to-dismissal	0.0
+.-confirm	0.0
+.-dismissal	0.0
+sents-confirm	0.0
+sents-dismissal	0.0
+confirm-The	0.0
+confirm-the	0.0
+confirm-MSPO	0.0
+confirm-reviews	0.0
+confirm-dismissal	0.0
+confirm-.	0.0
+dismissal-The	0.0
+dismissal-the	0.0
+dismissal-MSPO	0.0
+dismissal-reviews	0.0
+dismissal-dismissal	1.0
+dismissal-.	0.0
+dismissal-dismissal	1.0
+The-confirm	0.0
+The-dismissal	0.0
+the-confirm	0.0
+the-dismissal	0.0
+MSPO-confirm	0.0
+MSPO-dismissal	0.0
+reviews-confirm	0.0
+reviews-dismissal	0.0
+dismissal-confirm	0.0
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+.-confirm	0.0
+.-dismissal	0.0
+confirm-MSPN	0.0
+confirm-MSPO	0.0
+confirm-or	0.0
+confirm-.	0.0
+confirm-The	0.0
+confirm-the	0.0
+confirm-rejects	0.0
+confirm-dismissal	0.0
+confirm-of	0.0
+confirm-confirms	0.0
+dismissal-MSPN	0.0
+dismissal-MSPO	0.0
+dismissal-or	-0.0
+dismissal-.	0.0
+dismissal-The	0.0
+dismissal-the	0.0
+dismissal-rejects	0.0
+dismissal-dismissal	1.0
+dismissal-of	0.0
+dismissal-confirms	0.0
+dismissal-dismissal	1.0
+MSPN-confirm	0.0
+MSPN-dismissal	0.0
+MSPO-confirm	0.0
+MSPO-dismissal	0.0
+or-confirm	0.0
+or-dismissal	-0.0
+.-confirm	0.0
+.-dismissal	0.0
+The-confirm	0.0
+The-dismissal	0.0
+the-confirm	0.0
+the-dismissal	0.0
+rejects-confirm	0.0
+rejects-dismissal	0.0
+dismissal-confirm	0.0
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+of-confirm	0.0
+of-dismissal	0.0
+confirms-confirm	0.0
+confirms-dismissal	0.0
+conduct-The	0.0
+conduct-MSPN	0.0
+conduct-the	0.0
+conduct-a	0.0873396966946132
+conduct-MSPO	0.0
+conduct-dismissal	0.26521787385391915
+conduct-to	0.0
+conduct-.	0.0
+conduct-sents	0.0
+conduct-dismissal	0.26521787385391915
+dismissal-The	0.0
+dismissal-MSPN	0.0
+dismissal-the	0.0
+dismissal-a	0.07170427105692957
+dismissal-MSPO	0.0
+dismissal-dismissal	1.0
+dismissal-to	0.0
+dismissal-.	0.0
+dismissal-sents	0.0
+dismissal-dismissal	1.0
+The-conduct	0.0
+The-dismissal	0.0
+MSPN-conduct	0.0
+MSPN-dismissal	0.0
+the-conduct	0.0
+the-dismissal	0.0
+a-conduct	0.0873396966946132
+a-dismissal	0.07170427105692957
+a-conduct	0.0873396966946132
+MSPO-conduct	0.0
+MSPO-dismissal	0.0
+dismissal-conduct	0.26521787385391915
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+to-conduct	0.0
+to-dismissal	0.0
+.-conduct	0.0
+.-dismissal	0.0
+sents-conduct	0.0
+sents-dismissal	0.0
+conduct-The	0.0
+conduct-the	0.0
+conduct-MSPO	0.0
+conduct-reviews	0.0
+conduct-dismissal	0.26521787385391915
+conduct-.	0.0
+conduct-dismissal	0.26521787385391915
+dismissal-The	0.0
+dismissal-the	0.0
+dismissal-MSPO	0.0
+dismissal-reviews	0.0
+dismissal-dismissal	1.0
+dismissal-.	0.0
+dismissal-dismissal	1.0
+The-conduct	0.0
+The-dismissal	0.0
+the-conduct	0.0
+the-dismissal	0.0
+MSPO-conduct	0.0
+MSPO-dismissal	0.0
+reviews-conduct	0.0
+reviews-dismissal	0.0
+dismissal-conduct	0.26521787385391915
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+.-conduct	0.0
+.-dismissal	0.0
+conduct-MSPN	0.0
+conduct-MSPO	0.0
+conduct-or	-0.0
+conduct-.	0.0
+conduct-The	0.0
+conduct-the	0.0
+conduct-rejects	0.0
+conduct-dismissal	0.26521787385391915
+conduct-of	0.0
+conduct-confirms	0.0
+conduct-dismissal	0.26521787385391915
+dismissal-MSPN	0.0
+dismissal-MSPO	0.0
+dismissal-or	-0.0
+dismissal-.	0.0
+dismissal-The	0.0
+dismissal-the	0.0
+dismissal-rejects	0.0
+dismissal-dismissal	1.0
+dismissal-of	0.0
+dismissal-confirms	0.0
+dismissal-dismissal	1.0
+MSPN-conduct	0.0
+MSPN-dismissal	0.0
+MSPO-conduct	0.0
+MSPO-dismissal	0.0
+or-conduct	-0.0
+or-dismissal	-0.0
+.-conduct	0.0
+.-dismissal	0.0
+The-conduct	0.0
+The-dismissal	0.0
+the-conduct	0.0
+the-dismissal	0.0
+rejects-conduct	0.0
+rejects-dismissal	0.0
+dismissal-conduct	0.26521787385391915
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+of-conduct	0.0
+of-dismissal	0.0
+confirms-conduct	0.0
+confirms-dismissal	0.0
+review-The	0.0
+review-MSPN	0.0
+review-the	0.0
+review-a	0.07658811871630476
+review-MSPO	0.0
+review-dismissal	0.160740483707368
+review-to	0.0
+review-.	0.0
+review-sents	0.0
+review-dismissal	0.160740483707368
+The-review	0.0
+MSPN-review	0.0
+the-review	0.0
+a-review	0.07658811871630476
+a-review	0.07658811871630476
+MSPO-review	0.0
+dismissal-review	0.160740483707368
+dismissal-review	0.160740483707368
+to-review	0.0
+.-review	0.0
+sents-review	0.0
+review-The	0.0
+review-the	0.0
+review-MSPO	0.0
+review-reviews	0.0
+review-dismissal	0.160740483707368
+review-.	0.0
+review-dismissal	0.160740483707368
+The-review	0.0
+the-review	0.0
+MSPO-review	0.0
+reviews-review	0.0
+dismissal-review	0.160740483707368
+dismissal-review	0.160740483707368
+.-review	0.0
+review-MSPN	0.0
+review-MSPO	0.0
+review-or	-0.0
+review-.	0.0
+review-The	0.0
+review-the	0.0
+review-rejects	0.0
+review-dismissal	0.160740483707368
+review-of	0.0
+review-confirms	0.0
+review-dismissal	0.160740483707368
+MSPN-review	0.0
+MSPO-review	0.0
+or-review	-0.0
+.-review	0.0
+The-review	0.0
+the-review	0.0
+rejects-review	0.0
+dismissal-review	0.160740483707368
+dismissal-review	0.160740483707368
+of-review	0.0
+confirms-review	0.0
+reject-The	0.0
+reject-MSPN	0.0
+reject-the	0.0
+reject-a	0.0
+reject-MSPO	0.0
+reject-dismissal	0.0
+reject-to	0.0
+reject-.	0.0
+reject-sents	0.0
+dismissal-The	0.0
+dismissal-MSPN	0.0
+dismissal-the	0.0
+dismissal-a	0.07170427105692957
+dismissal-MSPO	0.0
+dismissal-dismissal	1.0
+dismissal-to	0.0
+dismissal-.	0.0
+dismissal-sents	0.0
+dismissal-dismissal	1.0
+The-reject	0.0
+The-dismissal	0.0
+MSPN-reject	0.0
+MSPN-dismissal	0.0
+the-reject	0.0
+the-dismissal	0.0
+a-reject	0.0
+a-dismissal	0.07170427105692957
+a-dismissal	0.07170427105692957
+MSPO-reject	0.0
+MSPO-dismissal	0.0
+dismissal-reject	0.0
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+to-reject	0.0
+to-dismissal	0.0
+.-reject	0.0
+.-dismissal	0.0
+sents-reject	0.0
+sents-dismissal	0.0
+reject-The	0.0
+reject-the	0.0
+reject-MSPO	0.0
+reject-reviews	0.0
+reject-dismissal	0.0
+reject-.	0.0
+dismissal-The	0.0
+dismissal-the	0.0
+dismissal-MSPO	0.0
+dismissal-reviews	0.0
+dismissal-dismissal	1.0
+dismissal-.	0.0
+dismissal-dismissal	1.0
+The-reject	0.0
+The-dismissal	0.0
+the-reject	0.0
+the-dismissal	0.0
+MSPO-reject	0.0
+MSPO-dismissal	0.0
+reviews-reject	0.0
+reviews-dismissal	0.0
+dismissal-reject	0.0
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+.-reject	0.0
+.-dismissal	0.0
+reject-MSPN	0.0
+reject-MSPO	0.0
+reject-or	0.0
+reject-.	0.0
+reject-The	0.0
+reject-the	0.0
+reject-rejects	0.0
+reject-dismissal	0.0
+reject-of	0.0
+reject-confirms	0.0
+dismissal-MSPN	0.0
+dismissal-MSPO	0.0
+dismissal-or	-0.0
+dismissal-.	0.0
+dismissal-The	0.0
+dismissal-the	0.0
+dismissal-rejects	0.0
+dismissal-dismissal	1.0
+dismissal-of	0.0
+dismissal-confirms	0.0
+dismissal-dismissal	1.0
+MSPN-reject	0.0
+MSPN-dismissal	0.0
+MSPO-reject	0.0
+MSPO-dismissal	0.0
+or-reject	0.0
+or-dismissal	-0.0
+.-reject	0.0
+.-dismissal	0.0
+The-reject	0.0
+The-dismissal	0.0
+the-reject	0.0
+the-dismissal	0.0
+rejects-reject	0.0
+rejects-dismissal	0.0
+dismissal-reject	0.0
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+of-reject	0.0
+of-dismissal	0.0
+confirms-reject	0.0
+confirms-dismissal	0.0
+confirm-The	0.0
+confirm-MSPN	0.0
+confirm-the	0.0
+confirm-a	0.0
+confirm-MSPO	0.0
+confirm-dismissal	0.0
+confirm-to	0.0
+confirm-.	0.0
+confirm-sents	0.0
+dismissal-The	0.0
+dismissal-MSPN	0.0
+dismissal-the	0.0
+dismissal-a	0.07170427105692957
+dismissal-MSPO	0.0
+dismissal-dismissal	1.0
+dismissal-to	0.0
+dismissal-.	0.0
+dismissal-sents	0.0
+dismissal-dismissal	1.0
+The-confirm	0.0
+The-dismissal	0.0
+MSPN-confirm	0.0
+MSPN-dismissal	0.0
+the-confirm	0.0
+the-dismissal	0.0
+a-confirm	0.0
+a-dismissal	0.07170427105692957
+a-dismissal	0.07170427105692957
+MSPO-confirm	0.0
+MSPO-dismissal	0.0
+dismissal-confirm	0.0
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+to-confirm	0.0
+to-dismissal	0.0
+.-confirm	0.0
+.-dismissal	0.0
+sents-confirm	0.0
+sents-dismissal	0.0
+confirm-The	0.0
+confirm-the	0.0
+confirm-MSPO	0.0
+confirm-reviews	0.0
+confirm-dismissal	0.0
+confirm-.	0.0
+dismissal-The	0.0
+dismissal-the	0.0
+dismissal-MSPO	0.0
+dismissal-reviews	0.0
+dismissal-dismissal	1.0
+dismissal-.	0.0
+dismissal-dismissal	1.0
+The-confirm	0.0
+The-dismissal	0.0
+the-confirm	0.0
+the-dismissal	0.0
+MSPO-confirm	0.0
+MSPO-dismissal	0.0
+reviews-confirm	0.0
+reviews-dismissal	0.0
+dismissal-confirm	0.0
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+.-confirm	0.0
+.-dismissal	0.0
+confirm-MSPN	0.0
+confirm-MSPO	0.0
+confirm-or	0.0
+confirm-.	0.0
+confirm-The	0.0
+confirm-the	0.0
+confirm-rejects	0.0
+confirm-dismissal	0.0
+confirm-of	0.0
+confirm-confirms	0.0
+dismissal-MSPN	0.0
+dismissal-MSPO	0.0
+dismissal-or	-0.0
+dismissal-.	0.0
+dismissal-The	0.0
+dismissal-the	0.0
+dismissal-rejects	0.0
+dismissal-dismissal	1.0
+dismissal-of	0.0
+dismissal-confirms	0.0
+dismissal-dismissal	1.0
+MSPN-confirm	0.0
+MSPN-dismissal	0.0
+MSPO-confirm	0.0
+MSPO-dismissal	0.0
+or-confirm	0.0
+or-dismissal	-0.0
+.-confirm	0.0
+.-dismissal	0.0
+The-confirm	0.0
+The-dismissal	0.0
+the-confirm	0.0
+the-dismissal	0.0
+rejects-confirm	0.0
+rejects-dismissal	0.0
+dismissal-confirm	0.0
+dismissal-dismissal	1.0
+dismissal-dismissal	1.0
+of-confirm	0.0
+of-dismissal	0.0
+confirms-confirm	0.0
+confirms-dismissal	0.0
+conduct-mspo	0.0
+conduct-mspn	0.0
+conduct-dismissal a	0.0
+conduct-MSPN the	0.0
+conduct-sent	0.0
+dismissal-mspo	0.0
+dismissal-mspn	0.0
+dismissal-dismissal a	0.0
+dismissal-MSPN the	0.0
+dismissal-sent	0.0
+mspo-conduct	0.0
+mspo-dismissal	0.0
+mspn-conduct	0.0
+mspn-dismissal	0.0
+dismissal a-conduct	0.0
+dismissal a-dismissal	0.0
+MSPN the-conduct	0.0
+MSPN the-dismissal	0.0
+sent-conduct	0.0
+sent-dismissal	0.0
+conduct-mspo	0.0
+conduct-review	0.195012066237648
+conduct-MSPO the	0.0
+conduct-dismissal the	0.0
+dismissal-mspo	0.0
+dismissal-MSPO the	0.0
+dismissal-dismissal the	0.0
+mspo-conduct	0.0
+mspo-dismissal	0.0
+review-conduct	0.195012066237648
+review-conduct	0.195012066237648
+MSPO the-conduct	0.0
+MSPO the-dismissal	0.0
+dismissal the-conduct	0.0
+dismissal the-dismissal	0.0
+conduct-dismissal the MSPN the	0.0
+conduct-confirm	-0.0
+conduct-mspo	0.0
+conduct-reject	0.0
+conduct-mspn	0.0
+conduct-MSPO the	0.0
+conduct-dismissal the mspn the	0.0
+dismissal-dismissal the MSPN the	0.0
+dismissal-mspo	0.0
+dismissal-mspn	0.0
+dismissal-MSPO the	0.0
+dismissal-dismissal the mspn the	0.0
+dismissal the MSPN the-conduct	0.0
+dismissal the MSPN the-dismissal	0.0
+confirm-conduct	-0.0
+mspo-conduct	0.0
+mspo-dismissal	0.0
+reject-conduct	0.0
+mspn-conduct	0.0
+mspn-dismissal	0.0
+MSPO the-conduct	0.0
+MSPO the-dismissal	0.0
+dismissal the mspn the-conduct	0.0
+dismissal the mspn the-dismissal	0.0
+review-mspo	0.0
+review-mspn	0.0
+review-dismissal a	0.0
+review-MSPN the	0.0
+review-sent	0.0
+mspo-review	0.0
+mspn-review	0.0
+dismissal a-review	0.0
+MSPN the-review	0.0
+sent-review	0.0
+review-mspo	0.0
+review-review	1.0
+review-MSPO the	0.0
+review-dismissal the	0.0
+review-review	1.0
+mspo-review	0.0
+review-review	1.0
+review-review	1.0
+MSPO the-review	0.0
+dismissal the-review	0.0
+review-dismissal the MSPN the	0.0
+review-confirm	-0.0
+review-mspo	0.0
+review-reject	0.0
+review-mspn	0.0
+review-MSPO the	0.0
+review-dismissal the mspn the	0.0
+dismissal the MSPN the-review	0.0
+confirm-review	-0.0
+mspo-review	0.0
+reject-review	0.0
+mspn-review	0.0
+MSPO the-review	0.0
+dismissal the mspn the-review	0.0
+reject-mspo	0.0
+reject-mspn	0.0
+reject-dismissal a	0.0
+reject-MSPN the	0.0
+reject-sent	0.0
+dismissal-mspo	0.0
+dismissal-mspn	0.0
+dismissal-dismissal a	0.0
+dismissal-MSPN the	0.0
+dismissal-sent	0.0
+mspo-reject	0.0
+mspo-dismissal	0.0
+mspn-reject	0.0
+mspn-dismissal	0.0
+dismissal a-reject	0.0
+dismissal a-dismissal	0.0
+MSPN the-reject	0.0
+MSPN the-dismissal	0.0
+sent-reject	0.0
+sent-dismissal	0.0
+reject-mspo	0.0
+reject-review	0.0
+reject-MSPO the	0.0
+reject-dismissal the	0.0
+dismissal-mspo	0.0
+dismissal-MSPO the	0.0
+dismissal-dismissal the	0.0
+mspo-reject	0.0
+mspo-dismissal	0.0
+review-reject	0.0
+MSPO the-reject	0.0
+MSPO the-dismissal	0.0
+dismissal the-reject	0.0
+dismissal the-dismissal	0.0
+reject-dismissal the MSPN the	0.0
+reject-confirm	-0.0
+reject-mspo	0.0
+reject-reject	1.0
+reject-mspn	0.0
+reject-MSPO the	0.0
+reject-dismissal the mspn the	0.0
+reject-reject	1.0
+dismissal-dismissal the MSPN the	0.0
+dismissal-mspo	0.0
+dismissal-mspn	0.0
+dismissal-MSPO the	0.0
+dismissal-dismissal the mspn the	0.0
+dismissal the MSPN the-reject	0.0
+dismissal the MSPN the-dismissal	0.0
+confirm-reject	-0.0
+mspo-reject	0.0
+mspo-dismissal	0.0
+reject-reject	1.0
+reject-reject	1.0
+mspn-reject	0.0
+mspn-dismissal	0.0
+MSPO the-reject	0.0
+MSPO the-dismissal	0.0
+dismissal the mspn the-reject	0.0
+dismissal the mspn the-dismissal	0.0
+confirm-mspo	0.0
+confirm-mspn	0.0
+confirm-dismissal a	0.0
+confirm-MSPN the	0.0
+confirm-sent	0.0
+dismissal-mspo	0.0
+dismissal-mspn	0.0
+dismissal-dismissal a	0.0
+dismissal-MSPN the	0.0
+dismissal-sent	0.0
+mspo-confirm	0.0
+mspo-dismissal	0.0
+mspn-confirm	0.0
+mspn-dismissal	0.0
+dismissal a-confirm	0.0
+dismissal a-dismissal	0.0
+MSPN the-confirm	0.0
+MSPN the-dismissal	0.0
+sent-confirm	0.0
+sent-dismissal	0.0
+confirm-mspo	0.0
+confirm-review	-0.0
+confirm-MSPO the	0.0
+confirm-dismissal the	0.0
+dismissal-mspo	0.0
+dismissal-MSPO the	0.0
+dismissal-dismissal the	0.0
+mspo-confirm	0.0
+mspo-dismissal	0.0
+review-confirm	-0.0
+MSPO the-confirm	0.0
+MSPO the-dismissal	0.0
+dismissal the-confirm	0.0
+dismissal the-dismissal	0.0
+confirm-dismissal the MSPN the	0.0
+confirm-confirm	1.0
+confirm-mspo	0.0
+confirm-reject	-0.0
+confirm-mspn	0.0
+confirm-MSPO the	0.0
+confirm-dismissal the mspn the	0.0
+confirm-confirm	1.0
+dismissal-dismissal the MSPN the	0.0
+dismissal-mspo	0.0
+dismissal-mspn	0.0
+dismissal-MSPO the	0.0
+dismissal-dismissal the mspn the	0.0
+dismissal the MSPN the-confirm	0.0
+dismissal the MSPN the-dismissal	0.0
+confirm-confirm	1.0
+confirm-confirm	1.0
+mspo-confirm	0.0
+mspo-dismissal	0.0
+reject-confirm	-0.0
+mspn-confirm	0.0
+mspn-dismissal	0.0
+MSPO the-confirm	0.0
+MSPO the-dismissal	0.0
+dismissal the mspn the-confirm	0.0
+dismissal the mspn the-dismissal	0.0

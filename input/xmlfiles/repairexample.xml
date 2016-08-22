@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>register</label>
+	</activity>
+	<activity id="2">
+		<label>analyze defect</label>
+		<verbBase>analyze</verbBase>
+		<object>defect</object>
+	</activity>
+	<activity id="3">
+		<label>inform user</label>
+		<verbBase>inform</verbBase>
+		<object>user</object>
+	</activity>
+	<activity id="4">
+		<label>repair (simple)</label>
+		<verbBase>repair</verbBase>
+		<object>simple</object>
+	</activity>
+	<activity id="5">
+		<label>repair (complex)</label>
+		<verbBase>repair</verbBase>
+		<object>complex</object>
+	</activity>
+	<activity id="6">
+		<label>Test repair</label>
+		<verbBase>test</verbBase>
+		<object>repair</object>
+	</activity>
+	<activity id="7">
+		<label>Restart repair</label>
+		<verbBase>restart</verbBase>
+		<object>repair</object>
+	</activity>
+	<activity id="8">
+		<label>Archive repair</label>
+		<verbBase>archive</verbBase>
+		<object>repair</object>
+	</activity>
+	</activities>
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>2</pred><succ>4</succ></pair>
+	<pair><pred>2</pred><succ>3</succ></pair>
+	<pair><pred>2</pred><succ>5</succ></pair>
+	<pair><pred>4</pred><succ>6</succ></pair>
+	<pair><pred>5</pred><succ>6</succ></pair>
+	<pair><pred>6</pred><succ>7</succ></pair>
+	<pair><pred>6</pred><succ>8</succ></pair>
+</follows>
+
+<text>
+The running example is about a process to repair telephones in a company.
+The company can fix 3 different types of phones (“T1”, “T2” and “T3”). The
+process starts by registering a telephone device sent by a customer. After
+registration, the telephone is sent to the Problem Detection (PD) depart-
+ment. There it is analyzed and its defect is categorized. In total, there are
+10 different categories of defects that the phones fixed by this company can
+have. Once the problem is identified, the telephone is sent to the Repair
+department and a letter is sent to the customer to inform him/her about the
+problem. The Repair (R) department has two teams. One of the teams can
+fix simple defects and the other team can repair complex defects. However,
+some of the defect categories can be repaired by both teams. Once a repair
+employee finishes working on a phone, this device is sent to the Quality Assurance (QA) department. 
+There it is analyzed by an employee to check if
+the defect was indeed fixed or not. If the defect is not repaired, the telephone
+is again sent to the Repair department. If the telephone is indeed repaired,
+the case is archived and the telephone is sent to the customer. To save on
+throughput time, the company only tries to fix a defect a limited number of
+times. If the defect is not fixed, the case is archived anyway and a brand
+new device is sent to the customer.
+
+
+
+</text>
+</process>

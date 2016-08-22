@@ -1,0 +1,6 @@
+map("check for completeness", "Once the forms are returned they are checked for completeness.")
+map("evaluate severity", "Otherwise the severity of the claim is evaluated.")
+map("check customer details", "If the forms provide all relevant details the claim is registered in the Claims Management system which ends the Claims Notification process.")
+map("send relevant forms", "Based on the outcome -LRB- simple or complex claims -RRB- relevant forms are sent to the claimant.")
+map("reject claim", "If not the claimant is informed that the claim must be rejected.")
+map("register claim", "If the forms provide all relevant details the claim is registered in the Claims Management system which ends the Claims Notification process.")

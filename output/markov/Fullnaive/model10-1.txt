@@ -1,0 +1,4 @@
+map("review", "The MPOO reviews the dismissal.")
+map("confirm the dismissal", "The MPOO reviews the dismissal.")
+map("reject the dismissal", "The MPOO reviews the dismissal.")
+map("conduct dismissal", "The MPOO reviews the dismissal.")

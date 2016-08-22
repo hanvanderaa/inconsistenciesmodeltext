@@ -1,0 +1,2 @@
+map("notify about change", "The INQ notifies the IP of the change.")
+map("check", "The IP checks whether the master data can be changed at the desired time.")

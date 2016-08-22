@@ -1,0 +1,4 @@
+map("apply", "The post is advertised applicants apply the applications are checked and the post is filled.")
+map("fill post", "The post is advertised applicants apply the applications are checked and the post is filled.")
+map("check application", "The post is advertised applicants apply the applications are checked and the post is filled.")
+map("advertise post", "The post is advertised applicants apply the applications are checked and the post is filled.")

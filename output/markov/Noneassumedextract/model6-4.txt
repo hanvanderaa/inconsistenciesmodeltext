@@ -1,0 +1,5 @@
+map("determine contact person", "The first step is to determine contact details of potential customers.")
+map("determine available project budget", "They are determining the contact person and the budget which would be available for the project.")
+map("contact customer", "If we are not contacted within 2 weeks a sales representative is calling the customer.")
+map("give sales presentation", "It is given either by a sales representative or by a pre-sales employee in case of a more technical presentation.")
+map("give technical presentation", "It is given either by a sales representative or by a pre-sales employee in case of a more technical presentation.")

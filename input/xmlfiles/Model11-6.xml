@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>enter change to distribution of salary costs</label>
+	</activity>
+	<activity id="2">
+		<label>approve change to distribution of salary costs</label>
+	</activity>
+	<activity id="3">
+		<label>reject</label>
+	</activity>
+	<activity id="4">
+		<label>change to distribution of salary costs saved in system</label>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>1</pred><succ>3</succ></pair>
+	<pair><pred>3</pred><succ>4</succ></pair>
+
+	
+</follows>
+
+<text>
+You would like to initiate the process for changing the distribution of salary costs for an employee. If a request has already been opened using the self-service options entitled Change distribution of salary costs or Transfer, the self-service option entitled Change distribution of salary costs cannot be used and an error message will appear. Only when the process for that self-service option has been completed can a request be submitted to change the distribution of salary costs. 
+
+The start date will always appear as today’s date. Change this date to the appropriate start date. Then click on select. 
+Please note that the date of the change must be in the current calendar year and may not be more than two months ahead of the current calendar date. 
+
+By clicking on employee, you can see all the employees that you supervise. External partners will not be shown. Select the employee for whom you want to apply the change. 
+
+The screen will show how the salary costs are currently distributed. By clicking on a line and then clicking on display, you can view the details for the current distribution of salary costs. You cannot change these data in this view. In order to change the existing data, you need to click change. You will then be able to enter your changes. 
+
+By clicking delete, you can delete the line that you have selected. 
+
+To add a new line, click on insert. Then fill in the relevant order number* or cost centre* and enter the percentage of salary costs that should be allocated to that cost centre / order number. The new line can be saved by clicking save.
+
+* Cost centres are used to make it easier for users to view organizational costs in considerable detail. The salary costs of an employee that do not fall under a specific project are usually recorded under a cost centre. 
+* Internal orders are used within VU University Amsterdam for projects funded by direct government funding, education-related projects that are funded indirectly and project-based investment. The salary costs of an employee that do not fall under one of the specific projects mentioned above, are recorded with an internal order.
+
+PLEASE NOTE: The total sum of the distributed salary costs must always equal 100\%!
+
+In order to determine the distribution of costs in relation to the employee’s FTE, you will need to divide 100\% by the employee’s FTE factor. The result must then be multiplied by the percentage of the costs distributed. 
+
+Example: an employee works 0.7 FTE, thus 70\%. 
+10\% of the costs are paid by department X 
+20\% by department Y,  
+40\% by department Z, 
+
+The formula will be as follows:
+department X: 100 / 70 x 10\% = 14.29\% 
+department Y: 100 / 70 x 20\% = 28.57\%
+department Z: 100 / 70 x 40\% = 57.14\%
+Total for departments X, Y and Z = 100\%
+
+You can include any information that may be necessary for the controller in the Comments tab. Once you have filled in the correct distribution, click on send. A task will then be generated for the controller. The controller will consider the impact of this change on any existing records already saved in the system, and will then issue a positive or negative recommendation. The controller may issue a negative recommendation on a maximum of two occasions. In the event of a third negative recommendation, the change will not be sent to the controller again, but be saved directly in the system. The controller will be sent a notification of this.
+
+
+
+</text>
+</process>

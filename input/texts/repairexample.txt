@@ -1,0 +1,19 @@
+The running example is about a process to repair telephones in a company.
+The company can fix 3 different types of phones (“T1”, “T2” and “T3”). The
+process starts by registering a telephone device sent by a customer. After
+registration, the telephone is sent to the Problem Detection (PD) depart-
+ment. There it is analyzed and its defect is categorized. In total, there are
+10 different categories of defects that the phones fixed by this company can
+have. Once the problem is identified, the telephone is sent to the Repair
+department and a letter is sent to the customer to inform him/her about the
+problem. The Repair (R) department has two teams. One of the teams can
+fix simple defects and the other team can repair complex defects. However,
+some of the defect categories can be repaired by both teams. Once a repair
+employee finishes working on a phone, this device is sent to the Quality Assurance (QA) department. 
+There it is analyzed by an employee to check if
+the defect was indeed fixed or not. If the defect is not repaired, the telephone
+is again sent to the Repair department. If the telephone is indeed repaired,
+the case is archived and the telephone is sent to the customer. To save on
+throughput time, the company only tries to fix a defect a limited number of
+times. If the defect is not fixed, the case is archived anyway and a brand
+new device is sent to the customer.

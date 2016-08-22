@@ -1,0 +1,4 @@
+map("write recommendation", "This recommendation is then checked by a senior claims officer who may mark the claim as OK or Not OK.")
+map("register claim", "After a claim is registered it is examined by a claims officer.")
+map("examine claim", "The claims officer then writes a settlement recommendation.")
+map("check recommendation", "If the claim is marked as Not OK it is sent back to the claims officer and the recommendation is repeated.")

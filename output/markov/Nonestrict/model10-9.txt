@@ -1,0 +1,8 @@
+map("reject the request", "The MPO rejects the change of the measuring point by the SP\/PU\/GO or the MPO confirmes the request of the SP\/PU\/GO.")
+map("review", "The MPO reviews the change request.")
+map("request a change", "The SP\/PU\/GO request changes of the MPO or the MPO himself causes a change.")
+map("inform about failure of the changes", "The MPO reports the implementation to the SP\/PU\/GO or notifies the SP\/PU\/GO about the failure of the changes.")
+map("perform the measuring point change", "The MPO performs the measuring point change.")
+map("cause change by itself", "The SP\/PU\/GO request changes of the MPO or the MPO himself causes a change.")
+map("send implementation report", "The MPO reports the implementation to the SP\/PU\/GO or notifies the SP\/PU\/GO about the failure of the changes.")
+map("confirm the request", "The MPO rejects the change of the measuring point by the SP\/PU\/GO or the MPO confirmes the request of the SP\/PU\/GO.")

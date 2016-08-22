@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<process>
+	<activities>
+	<activity id="0">
+		<label>start</label>
+	</activity>
+	<activity id="1">
+		<label>Apply</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="2">
+		<label>Review</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="3">
+		<label>Reject the application of the MPON</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="4">
+		<label>Confirm the application of the MPON</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="5">
+		<label>Inform about the confirmation of the application</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="6">
+		<label>Inform about the registration of the MSPO</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="7">
+		<label>Acquire Equipment</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="8">
+		<label>Change equipment</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="9">
+		<label>Inform about the failure of the overall transaction by deadline</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="10">
+		<label>Confirm the failure of the assignment</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="11">
+		<label>Assign MPON</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="12">
+		<label>Confirm assignment</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="13">
+		<label>Inform about the assignment of the MPON</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="14">
+		<label>Inform about the failure of the assignment of the MPON</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="15">
+		<label>Inform about the successful completion of the entire process</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	<activity id="16">
+		<label>Inform about the failure of the entire process</label>
+		<verbBase></verbBase>
+		<object></object>
+	</activity>
+	</activities>
+	
+<follows>
+	<pair><pred>0</pred><succ>1</succ></pair>
+	<pair><pred>1</pred><succ>2</succ></pair>
+	<pair><pred>2</pred><succ>3</succ></pair>
+	<pair><pred>2</pred><succ>4</succ></pair>
+	<pair><pred>4</pred><succ>5</succ></pair>
+	<pair><pred>5</pred><succ>6</succ></pair>
+	<pair><pred>5</pred><succ>7</succ></pair>
+	<pair><pred>5</pred><succ>8</succ></pair>
+	<pair><pred>6</pred><succ>9</succ></pair>
+	<pair><pred>6</pred><succ>10</succ></pair>
+	<pair><pred>6</pred><succ>11</succ></pair>
+	<pair><pred>7</pred><succ>15</succ></pair>
+	<pair><pred>7</pred><succ>16</succ></pair>
+	<pair><pred>8</pred><succ>15</succ></pair>
+	<pair><pred>8</pred><succ>16</succ></pair>
+	<pair><pred>9</pred><succ>14</succ></pair>
+	<pair><pred>10</pred><succ>14</succ></pair>
+	<pair><pred>11</pred><succ>12</succ></pair>
+	<pair><pred>12</pred><succ>13</succ></pair>
+	<pair><pred>16</pred><succ>10</succ></pair>
+
+	
+</follows>
+
+<text>
+The MPON reports the meter operation to the GO. The GO examines the application of the MPON. The GO rejects the application of the MPON or the GO confirms the application of the MPON. The GO informs the MPOO about the registration confirmation of the MPON. The GO informs the MSPO about the registration confirmation of the MPON. The MPON and the MPOO perform the equipment acquisition and/or equipment changes. The MPON informs the GO about the failure of the entire process or the MPON informs the GO about the successful completion of the entire process. The GO informs the MPON about the failure of the overall transaction by deadline if after a maximum time limit no message of the MPON is present at the GO. If the MPON informs the GO about the failure of the entire process, the GO confirms the failure of the assignment to the MPON. If the MPON informs the GO about the successful completion of the overall process, the GO assigns the MPON. The GO confirms the assignment to the MPON. The GO informs the MPOO about the failure of the assignment of the MPON or the GO informs the MPOO about the assignment of the MPON. The GO informs the MSPO about the failure of the assignment of the MPON or the GO informs the MSPO about the assignment of the MPON. The GO informs the SP about the assignment of the MPON.
+
+
+</text>
+</process>

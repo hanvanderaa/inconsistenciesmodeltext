@@ -1,0 +1,3 @@
+map("send questionnaire", "If after another five days there is still no response another reminder is sent and so on until the completed questionnaire is received.")
+map("send reminder", "If no response is received after five days a reminder is sent to the claimant.")
+map("filled questionnaire received", "If after another five days there is still no response another reminder is sent and so on until the completed questionnaire is received.")
